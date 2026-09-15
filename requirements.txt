@@ -1,1 +1,2 @@
-c3RyZWFtbGl0PT0xLjMxLjAKb3BlbnB5eGw9PTMuMS4yCg==
+streamlit==1.31.0
+openpyxl==3.1.2
