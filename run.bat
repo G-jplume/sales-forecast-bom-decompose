@@ -1,1 +1,15 @@
-QGVjaG8gb2ZmCmNoY3AgNjUwMDEgPm51bAp0aXRsZSDplIDllK7pooTmtYvmjYbnu5FTS1Xmi4bop6Plt6XlhbcKY2QgL2QgIiV+ZHAwIgplY2hvID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KZWNobyAgIOmUgOWUrumihOa1i+aNhue7kVNLVeaLhuinoyBTdHJlYW1saXQg5bCP56iL5bqPCmVjaG8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQplY2hvLgplY2hvIOato+WcqOWQr+WKqCBXZWIg5pyN5YqhLi4uCmVjaG8g5rWP6KeI5Zmo5bCG6Ieq5Yqo5omT5byAIGh0dHA6Ly9sb2NhbGhvc3Q6ODUwMQplY2hvLgplY2hvIOaMiSBDdHJsK0Mg5Y+v5YGc5q2i5pyN5YqhCmVjaG8uCnB5dGhvbiAtbSBzdHJlYW1saXQgcnVuIGFwcC5weSAtLXNlcnZlci5oZWFkbGVzcz1mYWxzZSAtLWJyb3dzZXIuZ2F0aGVyVXNhZ2U9ZmFsc2UKcGF1c2UK
+@echo off
+chcp 65001 >nul
+title 销售预测捆绑SKU拆解工具
+cd /d "%~dp0"
+echo ========================================
+echo   销售预测捆绑SKU拆解 Streamlit 小程序
+echo ========================================
+echo.
+echo 正在启动 Web 服务...
+echo 浏览器将自动打开 http://localhost:8501
+echo.
+echo 按 Ctrl+C 可停止服务
+echo.
+python -m streamlit run app.py --server.headless=false --browser.gatherUsage=false
+pause
