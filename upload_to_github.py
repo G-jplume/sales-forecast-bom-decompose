@@ -1,1 +1,118 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCuS4iuS8oCBTdHJlYW1saXQg5bqU55So5YiwIEdpdEh1Ygo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PQrkvb/nlKggR2l0SHViIEFQSSDnm7TmjqXkuIrkvKDmlofku7bvvIzml6DpnIDlronoo4UgZ2l044CCCgrkvb/nlKjmlrnms5U6CiAgcHl0aG9uIHVwbG9hZF90b19naXRodWIucHkgPHRva2VuPgoKMS4g5ZyoIEdpdEh1YiBTZXR0aW5ncyA+IERldmVsb3BlciBzZXR0aW5ncyA+IFBlcnNvbmFsIGFjY2VzcyB0b2tlbnMgPiBUb2tlbnMgKGNsYXNzaWMpCjIuIOWLvumAiSByZXBvIOadg+mZkAozLiDov5DooYw6IHB5dGhvbiB1cGxvYWRfdG9fZ2l0aHViLnB5IGdocF94eHh4eHh4eHh4eHgKIiIiCmltcG9ydCBzeXMKaW1wb3J0IG9zCmltcG9ydCBiYXNlNjQKZnJvbSBnaXRodWIgaW1wb3J0IEdpdGh1YgoKIyAtLS0tIOmFjee9riAtLS0tClJFUE9fTkFNRSA9ICJzYWxlcy1mb3JlY2FzdC1ib20tZGVjb21wb3NlIgpSRVBPX0RFU0MgPSAi6ZSA5ZSu6aKE5rWL5o2G57uRU0tV5ouG6KejIFN0cmVhbWxpdCDlsI/nqIvluo8iCkFQUF9ESVIgPSBvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkKCiMg6KaB5LiK5Lyg55qE5paH5Lu277yI55u45a+56Lev5b6E77yJCkZJTEVTX1RPX1VQTE9BRCA9IFsKICAgICJhcHAucHkiLAogICAgImRlY29tcG9zZS5weSIsCiAgICAicmVxdWlyZW1lbnRzLnR4dCIsCiAgICAicnVuLmJhdCIsCiAgICAiLmdpdGlnbm9yZSIsCiAgICAiUkVBRE1FLm1kIiwKICAgICJ1cGxvYWRfdG9fZ2l0aHViLnB5IiwKXQoKQ09NTUlUX01TRyA9ICLliJ3lp4vmj5DkuqQ6IOmUgOWUrumihOa1i+aNhue7kVNLVeaLhuinoyBTdHJlYW1saXQg5bqU55SoIgoKCmRlZiBtYWluKCk6CiAgICBpZiBsZW4oc3lzLmFyZ3YpIDwgMjoKICAgICAgICBwcmludCgi55So5rOVOiBweXRob24gdXBsb2FkX3RvX2dpdGh1Yi5weSA8R2l0SHViX1Rva2VuPiIpCiAgICAgICAgcHJpbnQoKQogICAgICAgIHByaW50KCLojrflj5YgVG9rZW4g5q2l6aqkOiIpCiAgICAgICAgcHJpbnQoIiAgMS4g5omT5byAIGh0dHBzOi8vZ2l0aHViLmNvbS9zZXR0aW5ncy90b2tlbnMiKQogICAgICAgIHByaW50KCIgIDIuIOeCueWHuyAnR2VuZXJhdGUgbmV3IHRva2VuIChjbGFzc2ljKSciKQogICAgICAgIHByaW50KCIgIDMuIOWLvumAiSAncmVwbycg5p2D6ZmQIikKICAgICAgICBwcmludCgiICA0LiDnlJ/miJDlkI7lpI3liLYgdG9rZW4iKQogICAgICAgIHByaW50KCIgIDUuIOi/kOihjDogcHl0aG9uIHVwbG9hZF90b19naXRodWIucHkgZ2hwX3h4eHh4eHh4eHh4eCIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICB0b2tlbiA9IHN5cy5hcmd2WzFdLnN0cmlwKCkKICAgIGdoID0gR2l0aHViKHRva2VuKQoKICAgICMg6I635Y+W5b2T5YmN55So5oi3CiAgICB0cnk6CiAgICAgICAgdXNlciA9IGdoLmdldF91c2VyKCkKICAgICAgICBwcmludChmIkdpdEh1YiDnlKjmiLc6IHt1c2VyLmxvZ2lufSIpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoZiJUb2tlbiDpqozor4HlpLHotKU6IHtlfSIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICAjIOWIm+W7uuS7k+W6k++8iOWmguaenOS4jeWtmOWcqO+8iQogICAgdHJ5OgogICAgICAgIHJlcG8gPSB1c2VyLmdldF9yZXBvKFJFUE9fTkFNRSkKICAgICAgICBwcmludChmIuS7k+W6k+W3suWtmOWcqDoge3JlcG8uZnVsbF9uYW1lfSIpCiAgICBleGNlcHQ6CiAgICAgICAgcHJpbnQoZiLliJvlu7rmlrDku5PlupM6IHtSRVBPX05BTUV9IikKICAgICAgICByZXBvID0gZ2guZ2V0X3VzZXIoKS5jcmVhdGVfcmVwbygKICAgICAgICAgICAgUkVQT19OQU1FLAogICAgICAgICAgICBkZXNjcmlwdGlvbj1SRVBPX0RFU0MsCiAgICAgICAgICAgIHByaXZhdGU9RmFsc2UsCiAgICAgICAgICAgIGF1dG9faW5pdD1GYWxzZSwKICAgICAgICApCiAgICAgICAgcHJpbnQoZiIgIOS7k+W6k+W3suWIm+W7ujoge3JlcG8uaHRtbF91cmx9IikKCiAgICAjIOS4iuS8oOaWh+S7tgogICAgcHJpbnQoZiJcbuS4iuS8oOaWh+S7tuWIsCB7cmVwby5mdWxsX25hbWV9Li4uIikKICAgIHVwbG9hZGVkID0gMAogICAgc2tpcHBlZCA9IDAKCiAgICBmb3IgcmVsX3BhdGggaW4gRklMRVNfVE9fVVBMT0FEOgogICAgICAgIGZpbGVfcGF0aCA9IG9zLnBhdGguam9pbihBUFBfRElSLCByZWxfcGF0aCkKICAgICAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoZmlsZV9wYXRoKToKICAgICAgICAgICAgcHJpbnQoZiIgIFvot7Pov4ddIHtyZWxfcGF0aH0gKOaWh+S7tuS4jeWtmOWcqCkiKQogICAgICAgICAgICBza2lwcGVkICs9IDEKICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgd2l0aCBvcGVuKGZpbGVfcGF0aCwgInJiIikgYXMgZjoKICAgICAgICAgICAgY29udGVudF9ieXRlcyA9IGYucmVhZCgpCgogICAgICAgIGNvbnRlbnRfYjY0ID0gYmFzZTY0LmI2NGVuY29kZShjb250ZW50X2J5dGVzKS5kZWNvZGUoInV0Zi04IikKCiAgICAgICAgIyDmo4Dmn6Xmlofku7bmmK/lkKblt7LlrZjlnKgKICAgICAgICB0cnk6CiAgICAgICAgICAgIGV4aXN0aW5nID0gcmVwby5nZXRfY29udGVudHMocmVsX3BhdGgpCiAgICAgICAgICAgICMg5pu05paw5bey5pyJ5paH5Lu2CiAgICAgICAgICAgIHJlcG8udXBkYXRlX2ZpbGUoCiAgICAgICAgICAgICAgICBwYXRoPXJlbF9wYXRoLAogICAgICAgICAgICAgICAgbWVzc2FnZT1mIuabtOaWsDoge3JlbF9wYXRofSIsCiAgICAgICAgICAgICAgICBjb250ZW50PWNvbnRlbnRfYjY0LAogICAgICAgICAgICAgICAgc2hhPWV4aXN0aW5nLnNoYSwKICAgICAgICAgICAgKQogICAgICAgICAgICBwcmludChmIiAgW+abtOaWsF0ge3JlbF9wYXRofSAoe2xlbihjb250ZW50X2J5dGVzKTosfSBieXRlcykiKQogICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgIyDliJvlu7rmlrDmlofku7YKICAgICAgICAgICAgcmVwby5jcmVhdGVfZmlsZSgKICAgICAgICAgICAgICAgIHBhdGg9cmVsX3BhdGgsCiAgICAgICAgICAgICAgICBtZXNzYWdlPUNPTU1JVF9NU0cgaWYgdXBsb2FkZWQgPT0gMCBlbHNlIGYi5re75YqgOiB7cmVsX3BhdGh9IiwKICAgICAgICAgICAgICAgIGNvbnRlbnQ9Y29udGVudF9iNjQsCiAgICAgICAgICAgICkKICAgICAgICAgICAgcHJpbnQoZiIgIFvkuIrkvKBdIHtyZWxfcGF0aH0gKHtsZW4oY29udGVudF9ieXRlcyk6LH0gYnl0ZXMpIikKCiAgICAgICAgdXBsb2FkZWQgKz0gMQoKICAgIHByaW50KGYiXG7lrozmiJAhIOS4iuS8oCB7dXBsb2FkZWR9IOS4quaWh+S7tiwg6Lez6L+HIHtza2lwcGVkfSDkuKoiKQogICAgcHJpbnQoZiLku5PlupPlnLDlnYA6IHtyZXBvLmh0bWxfdXJsfSIpCiAgICBwcmludChmIuWFi+mahuWRveS7pDogZ2l0IGNsb25lIHtyZXBvLmNsb25lX3VybH0iKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+# -*- coding: utf-8 -*-
+"""
+上传 Streamlit 应用到 GitHub
+=============================
+使用 GitHub API 直接上传文件，无需安装 git。
+
+使用方法:
+  python upload_to_github.py <token>
+
+1. 在 GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)
+2. 勾选 repo 权限
+3. 运行: python upload_to_github.py ghp_xxxxxxxxxxxx
+"""
+import sys
+import os
+from github import Github
+
+# ---- 配置 ----
+REPO_NAME = "sales-forecast-bom-decompose"
+REPO_DESC = "销售预测捆绑SKU拆解 Streamlit 小程序"
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# 要上传的文件（相对路径）
+FILES_TO_UPLOAD = [
+    "app.py",
+    "decompose.py",
+    "requirements.txt",
+    "run.bat",
+    ".gitignore",
+    "README.md",
+    "upload_to_github.py",
+]
+
+COMMIT_MSG = "初始提交: 销售预测捆绑SKU拆解 Streamlit 应用"
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("用法: python upload_to_github.py <GitHub_Token>")
+        print()
+        print("获取 Token 步骤:")
+        print("  1. 打开 https://github.com/settings/tokens")
+        print("  2. 点击 'Generate new token (classic)'")
+        print("  3. 勾选 'repo' 权限")
+        print("  4. 生成后复制 token")
+        print("  5. 运行: python upload_to_github.py ghp_xxxxxxxxxxxx")
+        sys.exit(1)
+
+    token = sys.argv[1].strip()
+    gh = Github(token)
+
+    # 获取当前用户
+    try:
+        user = gh.get_user()
+        print(f"GitHub 用户: {user.login}")
+    except Exception as e:
+        print(f"Token 验证失败: {e}")
+        sys.exit(1)
+
+    # 创建仓库（如果不存在）
+    try:
+        repo = user.get_repo(REPO_NAME)
+        print(f"仓库已存在: {repo.full_name}")
+    except:
+        print(f"创建新仓库: {REPO_NAME}")
+        repo = gh.get_user().create_repo(
+            REPO_NAME,
+            description=REPO_DESC,
+            private=False,
+            auto_init=False,
+        )
+        print(f"  仓库已创建: {repo.html_url}")
+
+    # 上传文件
+    print(f"\n上传文件到 {repo.full_name}...")
+    uploaded = 0
+    skipped = 0
+
+    for rel_path in FILES_TO_UPLOAD:
+        file_path = os.path.join(APP_DIR, rel_path)
+        if not os.path.exists(file_path):
+            print(f"  [跳过] {rel_path} (文件不存在)")
+            skipped += 1
+            continue
+
+        with open(file_path, "rb") as f:
+            content_bytes = f.read()
+
+        # PyGithub 内部会自动 base64 编码，不需要手动编码
+        # 检查文件是否已存在
+        try:
+            existing = repo.get_contents(rel_path)
+            # 更新已有文件
+            repo.update_file(
+                path=rel_path,
+                message=f"更新: {rel_path}",
+                content=content_bytes,
+                sha=existing.sha,
+            )
+            print(f"  [更新] {rel_path} ({len(content_bytes):,} bytes)")
+        except:
+            # 创建新文件
+            repo.create_file(
+                path=rel_path,
+                message=COMMIT_MSG if uploaded == 0 else f"添加: {rel_path}",
+                content=content_bytes,
+            )
+            print(f"  [上传] {rel_path} ({len(content_bytes):,} bytes)")
+
+        uploaded += 1
+
+    print(f"\n完成! 上传 {uploaded} 个文件, 跳过 {skipped} 个")
+    print(f"仓库地址: {repo.html_url}")
+    print(f"克隆命令: git clone {repo.clone_url}")
+
+
+if __name__ == "__main__":
+    main()
