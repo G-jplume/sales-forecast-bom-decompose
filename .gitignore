@@ -1,1 +1,29 @@
-IyDmlbDmja7mlofku7bvvIjmlY/mhJ/vvIzkuI3kuIrkvKDvvIkKKi54bHN4CiouY3N2CioueGxzCgojIFB5dGhvbgpfX3B5Y2FjaGVfXy8KKi5weWMKKi5weW8KKi5lZ2ctaW5mby8KZGlzdC8KYnVpbGQvCgojIOS4tOaXtuaWh+S7tgoqLnRtcAoqLmxvZwpjaGVja19pbnYucHkKZGVidWdfYnVuZGxlLnB5CmRvd25sb2FkX3Rvb2xzLnB5CgojIOeOr+Wig+mFjee9rgouZW52CnZlbnYvCi52ZW52LwoKIyBJREUKLmlkZWEvCi52c2NvZGUvCiouc3dwCg==
+# 数据文件（敏感，不上传）
+*.xlsx
+*.csv
+*.xls
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 临时文件
+*.tmp
+*.log
+check_inv.py
+debug_bundle.py
+download_tools.py
+
+# 环境配置
+.env
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
