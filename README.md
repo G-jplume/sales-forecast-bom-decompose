@@ -1,1 +1,55 @@
-IyDplIDllK7pooTmtYvmjYbnu5FTS1Xmi4bop6MgU3RyZWFtbGl0IOWwj+eoi+W6jwoK5bCG6Leo5aKD55S15ZWG44CM6ZSA5ZSu6aKE5rWL44CN5bel5L2c57C/5Lit55qE5o2G57uRU0tV5oyJQk9N5ouG6Kej5Li65Y2V5ZOBU0tV5bm25rGH5oC75oiQ5piO57uG44CCCgojIyDlip/og70KCi0g6K+75Y+W6L+Q6JCl6KGoICsgQk9N5o2G57uR5YWz57O7ICsg5Y2V5ZOB5Lqn5ZOB6LWE5paZCi0g5oyJQk9N5YWz57O76YCS5b2S5ouG6Kej5o2G57uRU0tV5Li65Y2V5ZOBU0tVCi0g5o+Q5L6b5bqT5a2Y5paH5Lu25pe26aKd5aSW55Sf5oiQ44CM6ZSA5ZSu6ZyA5rGC5rGH5oC744CNU2hlZXTvvIjlkKvmlbTlpZfmm7/ku6PjgIHmjInmnIjku47ogIHliLDmlrDliIbphY3vvIkKLSDovpPlh7oz5Liq5bel5L2c6KGo77ya6ZSA5ZSu6ZyA5rGC5rGH5oC7ICsg5pyq5ouG6Kej5pW05aWX54mI6ZSA5ZSu6ZyA5rGCICsg5byC5bi45o+Q6YaSCgojIyDlronoo4UKCmBgYGJhc2gKcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dApgYGAKCuS+nei1lu+8mgotIHN0cmVhbWxpdAotIG9wZW5weXhsCi0gcHl3aW4zMu+8iOivu+WPlkRSTeWKoOWvhnhsc3jpnIDopoFXaW5kb3dzICsgRXhjZWzvvIkKCiMjIOi/kOihjAoKYGBgYmFzaAojIOaWueW8jzHvvJrlkb3ku6TooYzlkK/liqgKc3RyZWFtbGl0IHJ1biBhcHAucHkKCiMg5pa55byPMu+8muWPjOWHu+WQr+WKqApydW4uYmF0CmBgYAoK5rWP6KeI5Zmo6Ieq5Yqo5omT5byAIGBodHRwOi8vbG9jYWxob3N0Ojg1MDFg44CCCgojIyDkvb/nlKgKCjEuIOS4iuS8oCoq6L+Q6JCl6KGoKiogeGxzeO+8iOaUr+aMgURSTeWKoOWvhu+8iQoyLiDkuIrkvKAqKuWQjOasvuWll+ijheW6k+WtmCoqIENTViArICoq5Lqn5ZOB6LWE5paZKiogQ1NW77yI5oiQ5a+55b+F5aGr77yJCjMuIOWPr+mAie+8muS4iuS8oCoq5bqT5a2Y5paH5Lu2KiogeGxzeCDihpIg6aKd5aSW55Sf5oiQU2hlZXQx44CM6ZSA5ZSu6ZyA5rGC5rGH5oC744CNCjQuIOeCueWHu+OAjOW8gOWni+aLhuino+OAjQo1LiDlrozmiJDlkI7ngrnlh7vjgIzkuIvovb3nu5Pmnpzmlofku7bjgI0KCiMjIOWPguaVsOivtOaYjgoK5L6n6L655qCP5Y+v6YWN572u77yaCi0gKirpo57kuaZVUkwqKu+8muaVtOWll+abv+S7o+WFs+ezu+ehruiupOihqO+8iOm7mOiupOWGhee9ru+8iQotICoq6L+Q6JCl6KGoU2hlZXTlkI0qKu+8mueVmeepuuiHquWKqOivhuWIqwotICoqQ1NW57yW56CBKirvvJrpu5jorqToh6rliqjmjqLmtYsKCiMjIOaKgOacr+e7huiKggoKLSBEUk3liqDlr4bmlofku7bpgJrov4cgcHl3aW4zMiArIEV4Y2VsIENPTSDor7vlj5YKLSBDU1bnvJbnoIHoh6rliqjmjqLmtYsgZ2JrIOKGkiB1dGYtOC1zaWcg4oaSIHV0Zi04Ci0g6aOe5Lmm5pig5bCE6YCa6L+HIGxhcmstY2xpIOivu+WPlu+8iOmcgOW3suaOiOadg++8iQotIOihqOagvOe+juWMlu+8muiTneiJsuihqOWktOOAgeaWkemprOihjOOAgeiAgeWll+ijhem7hOiJsi/mlrDlpZfoo4Xok53oibLog4zmma/jgIHlhrvnu5PnqpfmoLwK
+# 销售预测捆绑SKU拆解 Streamlit 小程序
+
+将跨境电商「销售预测」工作簿中的捆绑SKU按BOM拆解为单品SKU并汇总成明细。
+
+## 功能
+
+- 读取运营表 + BOM捆绑关系 + 单品产品资料
+- 按BOM关系递归拆解捆绑SKU为单品SKU
+- 提供库存文件时额外生成「销售需求汇总」Sheet（含整套替代、按月从老到新分配）
+- 输出3个工作表：销售需求汇总 + 未拆解整套版销售需求 + 异常提醒
+
+## 安装
+
+```bash
+pip install -r requirements.txt
+```
+
+依赖：
+- streamlit
+- openpyxl
+- pywin32（读取DRM加密xlsx需要Windows + Excel）
+
+## 运行
+
+```bash
+# 方式1：命令行启动
+streamlit run app.py
+
+# 方式2：双击启动
+run.bat
+```
+
+浏览器自动打开 `http://localhost:8501`。
+
+## 使用
+
+1. 上传**运营表** xlsx（支持DRM加密）
+2. 上传**同款套装库存** CSV + **产品资料** CSV（成对必填）
+3. 可选：上传**库存文件** xlsx → 额外生成Sheet1「销售需求汇总」
+4. 点击「开始拆解」
+5. 完成后点击「下载结果文件」
+
+## 参数说明
+
+侧边栏可配置：
+- **飞书URL**：整套替代关系确认表（默认内置）
+- **运营表Sheet名**：留空自动识别
+- **CSV编码**：默认自动探测
+
+## 技术细节
+
+- DRM加密文件通过 pywin32 + Excel COM 读取
+- CSV编码自动探测 gbk → utf-8-sig → utf-8
+- 飞书映射通过 lark-cli 读取（需已授权）
+- 表格美化：蓝色表头、斑马行、老套装黄色/新套装蓝色背景、冻结窗格
