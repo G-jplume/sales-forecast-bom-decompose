@@ -1,2 +1,2 @@
-streamlit==1.31.0
+streamlit==1.38.0
 openpyxl==3.1.2
