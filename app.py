@@ -22,8 +22,8 @@ from collections import defaultdict
 import streamlit as st
 
 st.set_page_config(
-    page_title="销售预测捆绑SKU拆解",
-    page_icon="📦",
+    page_title="BOM Decompose",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
