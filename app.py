@@ -1,1 +1,601 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCumUgOWUrumihOa1iyDmjYbnu5FTS1Xmi4bop6MgU3RyZWFtbGl0IOWwj+eoi+W6jwo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CuiHquWMheWQq++8mmRlY29tcG9zZS5weSDkuI4gYXBwLnB5IOWcqOWQjOS4gOebruW9leOAggotIFdpbmRvd3Mg5pys5Zyw6L+Q6KGM77ya5pSv5oyBIERSTSDliqDlr4bmlofku7bvvIjpgJrov4cgRXhjZWwgQ09N77yJCi0gU3RyZWFtbGl0IENsb3VkIChMaW51eCkg6L+Q6KGM77ya6Ieq5Yqo6ZmN57qn5Li6IG9wZW5weXhsIOivu+WPlu+8iOS7hemdnuWKoOWvhuaWh+S7tu+8iQoK6L+Q6KGMOiBzdHJlYW1saXQgcnVuIGFwcC5weQoiIiIKaW1wb3J0IHN5cwppbXBvcnQgb3MKaW1wb3J0IGlvCmltcG9ydCBtYXRoCmltcG9ydCB0ZW1wZmlsZQppbXBvcnQgc2h1dGlsCmltcG9ydCB0cmFjZWJhY2sKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QKCiMgLS0tLSDpobXpnaLphY3nva7vvIjlv4XpobvmmK/nrKzkuIDkuKogU3RyZWFtbGl0IOWRveS7pO+8iS0tLS0KaW1wb3J0IHN0cmVhbWxpdCBhcyBzdAoKc3Quc2V0X3BhZ2VfY29uZmlnKAogICAgcGFnZV90aXRsZT0i6ZSA5ZSu6aKE5rWL5o2G57uRU0tV5ouG6KejIiwKICAgIHBhZ2VfaWNvbj0i8J+TpiIsCiAgICBsYXlvdXQ9IndpZGUiLAogICAgaW5pdGlhbF9zaWRlYmFyX3N0YXRlPSJleHBhbmRlZCIsCikKCmltcG9ydCBvcGVucHl4bAoKIyAtLS0tIOWvvOWFpSBkZWNvbXBvc2Ug5qih5Z2X77yI5ZCM55uu5b2V77yJLS0tLQpBUFBfRElSID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpCmlmIEFQUF9ESVIgbm90IGluIHN5cy5wYXRoOgogICAgc3lzLnBhdGguaW5zZXJ0KDAsIEFQUF9ESVIpCgpfRENfSU1QT1JUX0VSUk9SID0gTm9uZQp0cnk6CiAgICBpbXBvcnQgZGVjb21wb3NlIGFzIGRjCmV4Y2VwdCBJbXBvcnRFcnJvciBhcyBlOgogICAgX0RDX0lNUE9SVF9FUlJPUiA9IHN0cihlKQogICAgZGMgPSBOb25lCgojIC0tLS0g5qOA5rWL6L+Q6KGM546v5aKDIC0tLS0KSVNfV0lORE9XUyA9IHN5cy5wbGF0Zm9ybSA9PSAid2luMzIiCkhBU19QWVdJTjMyID0gRmFsc2UKaWYgSVNfV0lORE9XUzoKICAgIHRyeToKICAgICAgICBpbXBvcnQgd2luMzJjb20uY2xpZW50CiAgICAgICAgSEFTX1BZV0lOMzIgPSBUcnVlCiAgICBleGNlcHQgSW1wb3J0RXJyb3I6CiAgICAgICAgcGFzcwoKCiMgPT09PT09PT09PT09PT09PT09PT0g5qC35byPID09PT09PT09PT09PT09PT09PT09CgoKIyA9PT09PT09PT09PT09PT09PT09PSBvcGVucHl4bCDpmY3nuqfor7vlj5YgPT09PT09PT09PT09PT09PT09PT0KCmRlZiBfcmVhZF9zaGVldF9vcGVucHl4bCh3Yl9wYXRoLCBzaGVldF9uYW1lLCBzdGFydF9yb3c9MSk6CiAgICAiIiLnlKggb3BlbnB5eGwg6K+75Y+WIHNoZWV077yI6Z2eIERSTSDmlofku7bpmY3nuqfmlrnmoYjvvInjgIIiIiIKICAgIHdiID0gb3BlbnB5eGwubG9hZF93b3JrYm9vayh3Yl9wYXRoLCBkYXRhX29ubHk9VHJ1ZSwgcmVhZF9vbmx5PVRydWUpCiAgICB3cyA9IHdiW3NoZWV0X25hbWVdCiAgICByb3dzID0gbGlzdCh3cy5pdGVyX3Jvd3MobWluX3Jvdz1zdGFydF9yb3csIHZhbHVlc19vbmx5PVRydWUpKQogICAgd2IuY2xvc2UoKQogICAgcmVzdWx0ID0gW10KICAgIGZvciByIGluIHJvd3M6CiAgICAgICAgaWYgaXNpbnN0YW5jZShyLCB0dXBsZSk6CiAgICAgICAgICAgIHJlc3VsdC5hcHBlbmQobGlzdChyKSkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXN1bHQuYXBwZW5kKFtyXSkKICAgIHJldHVybiByZXN1bHQKCgpkZWYgX2RldGVjdF9zaGVldF9uYW1lKHdiX3BhdGgsIGtleXdvcmQpOgogICAgIiIi6Ieq5Yqo5qOA5rWL5ZCr5YWz6ZSu5a2X55qEIHNoZWV0IOWQjeOAgiIiIgogICAgd2IgPSBvcGVucHl4bC5sb2FkX3dvcmtib29rKHdiX3BhdGgsIHJlYWRfb25seT1UcnVlKQogICAgZm9yIG5hbWUgaW4gd2Iuc2hlZXRuYW1lczoKICAgICAgICBpZiBrZXl3b3JkIGluIG5hbWU6CiAgICAgICAgICAgIHdiLmNsb3NlKCkKICAgICAgICAgICAgcmV0dXJuIG5hbWUKICAgIHdiLmNsb3NlKCkKICAgIHJldHVybiB3Yi5zaGVldG5hbWVzWzBdIGlmIHdiLnNoZWV0bmFtZXMgZWxzZSBOb25lCgoKZGVmIHJlYWRfd29ya2Jvb2tfZmFsbGJhY2sob3BfcGF0aCwgb3Bfc2hlZXQ9Tm9uZSwgcmVhZF9ib209VHJ1ZSk6CiAgICAiIiJvcGVucHl4bCDpmY3nuqfniYggcmVhZF93b3JrYm9va++8iOaXoCBDT00g546v5aKD77yJ44CCIiIiCiAgICBvcF9uYW1lID0gb3Bfc2hlZXQgb3IgX2RldGVjdF9zaGVldF9uYW1lKG9wX3BhdGgsICLov5DokKUiKQogICAgYm9tX25hbWUgPSBOb25lCgogICAgd2IgPSBvcGVucHl4bC5sb2FkX3dvcmtib29rKG9wX3BhdGgsIGRhdGFfb25seT1UcnVlLCByZWFkX29ubHk9VHJ1ZSkKICAgIG5hbWVzID0gd2Iuc2hlZXRuYW1lcwogICAgaWYgcmVhZF9ib206CiAgICAgICAgYm9tX25hbWUgPSBuZXh0KChuIGZvciBuIGluIG5hbWVzIGlmICLmjYbnu5EiIGluIG4pLCBOb25lKQogICAgd2IuY2xvc2UoKQoKICAgIG9wX3Jvd3MgPSBfcmVhZF9zaGVldF9vcGVucHl4bChvcF9wYXRoLCBvcF9uYW1lKQoKICAgIGRlZiBfbm9ybSh2KToKICAgICAgICBpZiB2IGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiAiIgogICAgICAgIGlmIGhhc2F0dHIodiwgJ3llYXInKToKICAgICAgICAgICAgcmV0dXJuICIlZOW5tCVk5pyIIiAlICh2LnllYXIsIHYubW9udGgpCiAgICAgICAgcmV0dXJuIHYKCiAgICBvcF9yb3dzID0gW1tfbm9ybSh2KSBmb3IgdiBpbiAociArIFsiIl0gKiAobWF4KGxlbihycikgZm9yIHJyIGluIG9wX3Jvd3MpIC0gbGVuKHIpKSldCiAgICAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UociwgbGlzdCkgZWxzZSBbX25vcm0ocildIGZvciByIGluIG9wX3Jvd3NdCgogICAgYm9tX3Jvd3MgPSBbXQogICAgaWYgYm9tX25hbWU6CiAgICAgICAgYm9tX3Jvd3MgPSBfcmVhZF9zaGVldF9vcGVucHl4bChvcF9wYXRoLCBib21fbmFtZSkKICAgICAgICBib21fcm93cyA9IFtbX25vcm0odikgZm9yIHYgaW4gKHIgKyBbIiJdICogKG1heChsZW4ocnIpIGZvciByciBpbiBib21fcm93cykgLSBsZW4ocikpKV0KICAgICAgICAgICAgICAgICAgICBpZiBpc2luc3RhbmNlKHIsIGxpc3QpIGVsc2UgW19ub3JtKHIpXSBmb3IgciBpbiBib21fcm93c10KCiAgICByZXR1cm4gbmFtZXMsIG9wX25hbWUsIGJvbV9uYW1lLCBvcF9yb3dzLCBib21fcm93cwoKCmRlZiByZWFkX25vcm1hbGl6YXRpb25fZmFsbGJhY2soaW52X3BhdGgpOgogICAgIiIib3BlbnB5eGwg6ZmN57qn54mIIHJlYWRfbm9ybWFsaXphdGlvbuOAgiIiIgogICAgc2hvcF90b19tYWluID0ge30KICAgIHBlcnNvbl90b19ub3JtID0ge30KCiAgICB3c19uYW1lID0gX2RldGVjdF9zaGVldF9uYW1lKGludl9wYXRoLCAi5rW35aSW5LuT5bqT5a2YIikKICAgIGlmIG5vdCB3c19uYW1lOgogICAgICAgIHJldHVybiBzaG9wX3RvX21haW4sIHBlcnNvbl90b19ub3JtCgogICAgZGF0YSA9IF9yZWFkX3NoZWV0X29wZW5weXhsKGludl9wYXRoLCB3c19uYW1lLCBzdGFydF9yb3c9MikKICAgIGZvciByb3cgaW4gZGF0YToKICAgICAgICBpZiBub3Qgcm93IG9yIG5vdCByb3dbMF06CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgbWFpbl9zaG9wID0gZGMuc2FmZV9zdHIocm93WzJdKSBpZiBsZW4ocm93KSA+IDIgZWxzZSAiIgogICAgICAgIG5vcm1fcGVyc29uID0gZGMuc2FmZV9zdHIocm93WzRdKSBpZiBsZW4ocm93KSA+IDQgZWxzZSAiIgogICAgICAgIHNob3AgPSBkYy5zYWZlX3N0cihyb3dbNV0pIGlmIGxlbihyb3cpID4gNSBlbHNlICIiCiAgICAgICAgcGVyc29uID0gZGMuc2FmZV9zdHIocm93WzZdKSBpZiBsZW4ocm93KSA+IDYgZWxzZSAiIgogICAgICAgIGlmIHNob3AgYW5kIG1haW5fc2hvcDoKICAgICAgICAgICAgc2hvcF90b19tYWluW3Nob3BdID0gbWFpbl9zaG9wCiAgICAgICAgaWYgcGVyc29uIGFuZCBub3JtX3BlcnNvbjoKICAgICAgICAgICAgcGVyc29uX3RvX25vcm1bcGVyc29uXSA9IG5vcm1fcGVyc29uCgogICAgcmV0dXJuIHNob3BfdG9fbWFpbiwgcGVyc29uX3RvX25vcm0KCgpkZWYgcmVhZF9pbnZlbnRvcnlfZmFsbGJhY2soaW52X3BhdGgpOgogICAgIiIib3BlbnB5eGwg6ZmN57qn54mIIHJlYWRfaW52ZW50b3J544CCIiIiCiAgICBpbnZfbWFwID0gZGVmYXVsdGRpY3QobGFtYmRhOiBkaWN0KHppcChkYy5JTlZfQ09NUE9ORU5UUywgWzBdKjcpKSkKCiAgICBzaGVldF9tYXAgPSB7CiAgICAgICAgIua1t+WkluS7k+W6k+WtmCI6ICgi5rW35aSW5Zyo5LuTIiwgNyksCiAgICAgICAgIuWcqOmAlCbphY3mn5wiOiAoIua1t+WkluWcqOmAlCIsIDEyKSwKICAgICAgICAi5ZCI5ZCM5b6F5Lqk5LuYIjogKCLlvoXkuqTku5jlkIjlkIwiLCBOb25lKSwKICAgICAgICAi6YeH6LSt5Y2V5b6F5LiL5Y2VIjogKCLlm73lhoXlvoXkuIvlkIjlkIwiLCAxNCksCiAgICB9CgogICAgZm9yIHNoZWV0X25hbWUsIChjb21wLCBxdHlfY29sKSBpbiBzaGVldF9tYXAuaXRlbXMoKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIGRhdGEgPSBfcmVhZF9zaGVldF9vcGVucHl4bChpbnZfcGF0aCwgc2hlZXRfbmFtZSwgc3RhcnRfcm93PTIpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgY29udGludWUKICAgICAgICBmb3Igcm93IGluIGRhdGE6CiAgICAgICAgICAgIGlmIG5vdCByb3cgb3Igbm90IHJvd1swXToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGtleSA9IGRjLnNhZmVfc3RyKHJvd1swXSkKICAgICAgICAgICAgaWYgc2hlZXRfbmFtZSA9PSAi5ZCI5ZCM5b6F5Lqk5LuYIjoKICAgICAgICAgICAgICAgIHF0eSA9IChkYy50b19udW0ocm93WzE5XSkgaWYgbGVuKHJvdykgPiAxOSBlbHNlIDApICsgXAogICAgICAgICAgICAgICAgICAgICAgKGRjLnRvX251bShyb3dbMjVdKSBpZiBsZW4ocm93KSA+IDI1IGVsc2UgMCkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHF0eSA9IGRjLnRvX251bShyb3dbcXR5X2NvbF0pIGlmIGxlbihyb3cpID4gcXR5X2NvbCBlbHNlIDAKICAgICAgICAgICAgaW52X21hcFtrZXldW2NvbXBdICs9IHF0eQoKICAgICMg5rW35aSW5LuT6LCD5ouoCiAgICB0cnk6CiAgICAgICAgZGF0YSA9IF9yZWFkX3NoZWV0X29wZW5weXhsKGludl9wYXRoLCAi5rW35aSW5LuT6LCD5ouoIiwgc3RhcnRfcm93PTMpCiAgICAgICAgZm9yIHJvdyBpbiBkYXRhOgogICAgICAgICAgICBpZiBub3Qgcm93OgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAga2V5X2luID0gZGMuc2FmZV9zdHIocm93WzBdKSBpZiBsZW4ocm93KSA+IDAgZWxzZSAiIgogICAgICAgICAgICBvdXRfc2t1ID0gZGMuc2FmZV9zdHIocm93WzJdKSBpZiBsZW4ocm93KSA+IDIgZWxzZSAiIgogICAgICAgICAgICBvdXRfc2hvcCA9IGRjLnNhZmVfc3RyKHJvd1s2XSkgaWYgbGVuKHJvdykgPiA2IGVsc2UgIiIKICAgICAgICAgICAgb3V0X3BlcnNvbiA9IGRjLnNhZmVfc3RyKHJvd1s4XSkgaWYgbGVuKHJvdykgPiA4IGVsc2UgIiIKICAgICAgICAgICAgb3V0X21vZGUgPSBkYy5zYWZlX3N0cihyb3dbOV0pIGlmIGxlbihyb3cpID4gOSBlbHNlICIiCiAgICAgICAgICAgIHF0eSA9IGRjLnRvX251bShyb3dbMTRdKSBpZiBsZW4ocm93KSA+IDE0IGVsc2UgMAogICAgICAgICAgICBpZiBrZXlfaW46CiAgICAgICAgICAgICAgICBpbnZfbWFwW2tleV9pbl1bIuWAn+WFpSJdICs9IHF0eQogICAgICAgICAgICBpZiBvdXRfc2t1IGFuZCBvdXRfc2hvcCBhbmQgb3V0X21vZGUgYW5kIG91dF9wZXJzb246CiAgICAgICAgICAgICAgICBrZXlfb3V0ID0gIiVzJiVzJiVzJiVzIiAlIChvdXRfc2t1LCBvdXRfc2hvcCwgb3V0X21vZGUsIG91dF9wZXJzb24pCiAgICAgICAgICAgICAgICBpbnZfbWFwW2tleV9vdXRdWyLlgJ/lh7oiXSArPSBxdHkKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcGFzcwoKICAgIHJldHVybiBkaWN0KGludl9tYXApCgoKIyA9PT09PT09PT09PT09PT09PT09PSDpo57kuabmmKDlsITpmY3nuqcgPT09PT09PT09PT09PT09PT09PT0KCmRlZiByZWFkX2ZlaXNodV9tYXBwaW5nX3NhZmUoZmVpc2h1X3VybCk6CiAgICAiIiLlsJ3or5Xor7vlj5bpo57kuabmmKDlsITvvIzlpLHotKXml7bov5Tlm57nqbrmmKDlsITjgIIiIiIKICAgIHRyeToKICAgICAgICByZXR1cm4gZGMucmVhZF9mZWlzaHVfbWFwcGluZyhmZWlzaHVfdXJsKQogICAgZXhjZXB0IEZpbGVOb3RGb3VuZEVycm9yOgogICAgICAgIHN0Lndhcm5pbmcoIuKaoO+4jyBsYXJrLWNsaSDmnKrlronoo4XmiJbmnKrmjojmnYPvvIzot7Pov4fpo57kuabmmKDlsITjgIJTaGVldDEv5pW05aWX5pu/5Luj5Yqf6IO95LiN5Y+v55So44CCIikKICAgICAgICByZXR1cm4ge30sIHt9LCB7fSwge30KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBzdC53YXJuaW5nKGYi4pqg77iPIOmjnuS5puaYoOWwhOivu+WPluWksei0pToge2V944CCU2hlZXQxL+aVtOWll+abv+S7o+WKn+iDveS4jeWPr+eUqOOAgiIpCiAgICAgICAgcmV0dXJuIHt9LCB7fSwge30sIHt9CgoKIyA9PT09PT09PT09PT09PT09PT09PSDmoLjlv4Pmi4bop6PmtYHnqIsgPT09PT09PT09PT09PT09PT09PT0KCmRlZiBydW5fZGVjb21wb3NlKG9wX3BhdGgsIGJvbV9jc3ZfcGF0aCwgcHJvZHVjdF9jc3ZfcGF0aCwgaW52X3BhdGgsIGZlaXNodV91cmwsCiAgICAgICAgICAgICAgICAgIG9wX3NoZWV0PU5vbmUsIGVuYz1Ob25lKToKICAgICIiIuaJp+ihjOaLhuino+a1geawtOe6v++8jOi/lOWbniAob3V0cHV0X3BhdGgsIHN1bW1hcnlfZGljdCnjgIIiIiIKICAgIHN1bW1hcnkgPSB7fQoKICAgICMgLS0tLSBTdGVwIDE6IOivu+WPlui/kOiQpeihqCAtLS0tCiAgICBzdC53cml0ZSgi8J+TiiDor7vlj5bov5DokKXooaguLi4iKQoKICAgIGRlZiBfdHJ5X3JlYWRfd29ya2Jvb2soKToKICAgICAgICBpZiBIQVNfUFlXSU4zMjoKICAgICAgICAgICAgcmV0dXJuIGRjLnJlYWRfd29ya2Jvb2sob3BfcGF0aCwgb3Bfc2hlZXQ9b3Bfc2hlZXQsIHJlYWRfYm9tPVRydWUpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmV0dXJuIHJlYWRfd29ya2Jvb2tfZmFsbGJhY2sob3BfcGF0aCwgb3Bfc2hlZXQ9b3Bfc2hlZXQsIHJlYWRfYm9tPVRydWUpCgogICAgdHJ5OgogICAgICAgIG5hbWVzLCBvcF9uYW1lLCBib21fbmFtZSwgb3AsIGJvbSA9IF90cnlfcmVhZF93b3JrYm9vaygpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgaWYgbm90IEhBU19QWVdJTjMyOgogICAgICAgICAgICBzdC5lcnJvcigKICAgICAgICAgICAgICAgIGYi6K+75Y+W6L+Q6JCl6KGo5aSx6LSlOiB7ZX1cblxuIgogICAgICAgICAgICAgICAgIuWPr+iDveWOn+WboO+8muaWh+S7tuiiqyBEUk0g5Yqg5a+G77yM5b2T5YmN546v5aKD77yITGludXgvQ2xvdWTvvInml6Dms5Xor7vlj5bjgIJcbiIKICAgICAgICAgICAgICAgICLop6PlhrPmlrnmoYjvvJrlnKggV2luZG93cyArIEV4Y2VsIOeOr+Wig+S4i+acrOWcsOi/kOihjCBgc3RyZWFtbGl0IHJ1biBhcHAucHlg44CCIgogICAgICAgICAgICApCiAgICAgICAgICAgIHJhaXNlCiAgICAgICAgcmFpc2UKCiAgICBzdC53cml0ZShmIiAg6L+Q6JCl6KGoOiBge29wX25hbWV9YCIpCgogICAgIyAtLS0tIFN0ZXAgMjog5a6a5L2N6KGo5aS0IC8g5pyI5Lu96KGMIC8g5pWw5o2u6KGMIC0tLS0KICAgIHN0LndyaXRlKCLwn5OLIOWumuS9jeihqOWktOWSjOaVsOaNri4uLiIpCiAgICBoaWR4ID0gZGMuZmluZF9oZWFkZXJfcm93KG9wLCAiU0tVIiwgY29sPTApCiAgICBpZiBoaWR4ID09IDAgYW5kIG5vdCBzdHIoZGMuY2VsbChvcFswXSwgMCkpLnN0cmlwKCkgPT0gIlNLVSI6CiAgICAgICAgc3Qud2FybmluZygi5pyq5Zyo6L+Q6JCl6KGo5a6a5L2N5Yiw6KGo5aS06KGM77yM5bey5Zue6YCA5Yiw56ysIDEg6KGMIikKICAgIG9wX2hkciA9IG9wW2hpZHhdCiAgICBtb250aF9yb3cgPSBvcFtoaWR4ICsgMV0gaWYgaGlkeCArIDEgPCBsZW4ob3ApIGVsc2UgW10KICAgIGRhdGEgPSBbciBmb3IgciBpbiBvcFtoaWR4ICsgMjpdIGlmIHIgYW5kIHN0cihkYy5jZWxsKHIsIDApKS5zdHJpcCgpXQogICAgc3Qud3JpdGUoZiIgIOaVsOaNruihjOaVsDoge2xlbihkYXRhKX0iKQoKICAgICMgLS0tLSBTdGVwIDM6IOWIl+e0ouW8lSAtLS0tCiAgICBmc3RhcnQgPSBkYy5jb2xfaW5kZXgob3BfaGRyLCAi6ZSA6YeP6aKE5rWLIikKICAgIGlmIGZzdGFydCBpcyBOb25lOgogICAgICAgIGZzdGFydCA9IGRjLkRFRkFVTFRfRlNUQVJUCiAgICBzc19jb2wgPSBmc3RhcnQgLSAxCiAgICBmYyA9IGxpc3QocmFuZ2UoZnN0YXJ0LCBmc3RhcnQgKyAxMikpCiAgICBjYyA9IHsKICAgICAgICAiZnN0YXJ0IjogZnN0YXJ0LCAic3NfY29sIjogc3NfY29sLCAidG90X2NvbCI6IGZzdGFydCAtIDIsICJmYyI6IGZjLAogICAgICAgICJza3VfYyI6IGRjLmNvbF9pbmRleChvcF9oZHIsICJTS1UiLCBleGNsdWRlPSLkuqflk4EiKSBvciAwLAogICAgICAgICJzaG9wX2MiOiBkYy5jb2xfaW5kZXgob3BfaGRyLCAi5bqX6ZO6IiksCiAgICAgICAgIm9wZ19jIjogZGMuY29sX2luZGV4KG9wX2hkciwgIui/kOiQpSIpLAogICAgICAgICJzaGlwX2MiOiBkYy5jb2xfaW5kZXgob3BfaGRyLCAi5Y+R6LSn5qih5byPIiksCiAgICAgICAgImNhdF9jIjogZGMuY29sX2luZGV4KG9wX2hkciwgIuS4gOe6p+WIhuexuyIpLAogICAgICAgICJncmFkZV9jIjogZGMuY29sX2luZGV4KG9wX2hkciwgIuS6p+WTgeWumue6pyIpLAogICAgICAgICJjaGFuX2MiOiBkYy5jb2xfaW5kZXgob3BfaGRyLCAi5rig6YGTIiksCiAgICAgICAgImNvdW5fYyI6IGRjLmNvbF9pbmRleChvcF9oZHIsICLlm73lrrYiKSwKICAgICAgICAic3RhdF9jIjogZGMuY29sX2luZGV4KG9wX2hkciwgIumUgOWUrueKtuaAgSIpLAogICAgICAgICJsaXN0X2MiOiBkYy5jb2xfaW5kZXgob3BfaGRyLCAibGlzdGluZyIpIG9yIGRjLmNvbF9pbmRleChvcF9oZHIsICLotJ/otKPkuroiKSwKICAgICAgICAibXNrdV9jIjogZGMuY29sX2luZGV4KG9wX2hkciwgIk1TS1UiKSwKICAgICAgICAicG5hbWVfYyI6IGRjLmNvbF9pbmRleChvcF9oZHIsICLlk4HlkI3mj4/ov7AiKSwKICAgICAgICAic3B1X2MiOiBkYy5jb2xfaW5kZXgob3BfaGRyLCAi5Z6L5Y+3U1BVIiksCiAgICB9CgogICAgIyAtLS0tIFN0ZXAgNDog5bGe5oCn5p+l5om+6KGoIC0tLS0KICAgIG9wX2F0dHIgPSB7fQogICAgZm9yIHJvdyBpbiBkYXRhOgogICAgICAgIHNrdSA9IHN0cihkYy5jZWxsKHJvdywgY2NbInNrdV9jIl0pKS5zdHJpcCgpCiAgICAgICAgc2hvcCA9IHN0cihkYy5jZWxsKHJvdywgY2NbInNob3BfYyJdKSkuc3RyaXAoKQogICAgICAgIG9wZyA9IHN0cihkYy5jZWxsKHJvdywgY2NbIm9wZ19jIl0pKS5zdHJpcCgpCiAgICAgICAgc2hpcCA9IHN0cihkYy5jZWxsKHJvdywgY2NbInNoaXBfYyJdKSkuc3RyaXAoKQogICAgICAgIHZhbHMgPSAoCiAgICAgICAgICAgIHN0cihkYy5jZWxsKHJvdywgY2NbImNhdF9jIl0pKS5zdHJpcCgpLAogICAgICAgICAgICBzdHIoZGMuY2VsbChyb3csIGNjWyJncmFkZV9jIl0pKS5zdHJpcCgpLAogICAgICAgICAgICBzdHIoZGMuY2VsbChyb3csIGNjWyJjaGFuX2MiXSkpLnN0cmlwKCksCiAgICAgICAgICAgIHN0cihkYy5jZWxsKHJvdywgY2NbImNvdW5fYyJdKSkuc3RyaXAoKSwKICAgICAgICAgICAgc3RyKGRjLmNlbGwocm93LCBjY1sic3RhdF9jIl0pKS5zdHJpcCgpLAogICAgICAgICkKICAgICAgICBrZXkgPSAoc2t1LnVwcGVyKCksIHNob3AsIG9wZywgc2hpcCkKICAgICAgICBpZiBrZXkgbm90IGluIG9wX2F0dHI6CiAgICAgICAgICAgIG9wX2F0dHJba2V5XSA9IHZhbHMKCiAgICAjIC0tLS0gU3RlcCA1OiDmnoTlu7ogQk9NIC8g5Lqn5ZOB6LWE5paZIC0tLS0KICAgIHN0LndyaXRlKCLwn5SnIOaehOW7ukJPTeWSjOS6p+WTgei1hOaWmS4uLiIpCiAgICBpZiBib21fY3N2X3BhdGggYW5kIHByb2R1Y3RfY3N2X3BhdGg6CiAgICAgICAgcHJvZF9tYXN0ZXIsIGJvbV9tYXAgPSBkYy5idWlsZF9ib21fcHJvZHVjdChib21fY3N2X3BhdGgsIHByb2R1Y3RfY3N2X3BhdGgsIGVuYykKICAgICAgICBzdC53cml0ZShmIiAg5Lqn5ZOB6LWE5paZOiB7bGVuKHByb2RfbWFzdGVyKX0g5p2hIHwgQk9N5pig5bCEOiB7bGVuKGJvbV9tYXApfSDmnaEiKQogICAgZWxzZToKICAgICAgICBwcm9kX21hc3RlciwgYm9tX21hcCA9IHt9LCBkZWZhdWx0ZGljdChsaXN0KQogICAgICAgIHN0Lndhcm5pbmcoIuacquaPkOS+myBCT00gQ1NWIOWSjOS6p+WTgei1hOaWmSBDU1YiKQoKICAgICMgLS0tLSBTdGVwIDY6IOaehOW7uuaYjue7hiAtLS0tCiAgICBzdC53cml0ZSgi8J+TpiDmnoTlu7rmi4bop6PmmI7nu4YuLi4iKQogICAgKGRldGFpbCwgbWlzc2luZ19idW5kbGUsIG1pc3NpbmdfcHJvZCwKICAgICBuX2J1bmRsZSwgbl9zaW5nbGUsIG5fbWlzc2J1bmRsZSwgcm91bmRlZF9jZWxscykgPSBcCiAgICAgICAgZGMucHJvY2Vzc19yb3dzKGRhdGEsIGJvbV9tYXAsIHByb2RfbWFzdGVyLCBvcF9hdHRyLCBjYykKICAgIHN0LndyaXRlKGYiICDmmI7nu4bmgLvooYzmlbA6ICoqe2xlbihkZXRhaWwpfSoqICjmjYbnu5Hmi4bop6M6IHtuX2J1bmRsZX0sIOWOn+WNleWTgToge25fc2luZ2xlfSkiKQoKICAgIGlmIG1pc3NpbmdfYnVuZGxlOgogICAgICAgIHN0LndyaXRlKGYiICDimqDvuI8g57y65aSx5o2G57uR5YWz57O7OiB7bGVuKG1pc3NpbmdfYnVuZGxlKX0g5LiqIOKGkiB7JywgJy5qb2luKG1bMF0gZm9yIG0gaW4gbWlzc2luZ19idW5kbGUpfSIpCiAgICBpZiBtaXNzaW5nX3Byb2Q6CiAgICAgICAgc3Qud3JpdGUoZiIgIOKaoO+4jyDmnKrljLnphY3kuqflk4HotYTmlpk6IHtsZW4obWlzc2luZ19wcm9kKX0g5LiqIikKCiAgICBzdW1tYXJ5WyLmmI7nu4bmgLvooYzmlbAiXSA9IGxlbihkZXRhaWwpCiAgICBzdW1tYXJ5WyLmjYbnu5Hmi4bop6MiXSA9IG5fYnVuZGxlCiAgICBzdW1tYXJ5WyLljp/ljZXlk4EiXSA9IG5fc2luZ2xlCiAgICBzdW1tYXJ5WyLnvLrlpLHmjYbnu5HlhbPns7siXSA9IG5fbWlzc2J1bmRsZQogICAgc3VtbWFyeVsi5pyq5Yy56YWN5Lqn5ZOB6LWE5paZIl0gPSBsZW4obWlzc2luZ19wcm9kKQoKICAgICMgLS0tLSBTdGVwIDc6IOiHquajgCAtLS0tCiAgICBmb3JtdWxhX2JhZCA9IGRjLmNoZWNrX2Zvcm11bGFzKGRldGFpbCkKICAgIGlmIGZvcm11bGFfYmFkOgogICAgICAgIHN0Lndhcm5pbmcoZiIgIOaxh+aAu+WFrOW8j+S4jeespjoge2xlbihmb3JtdWxhX2JhZCl9IOihjCIpCiAgICBlbHNlOgogICAgICAgIHN0LndyaXRlKCIgIOKchSDmsYfmgLvlhazlvI/oh6rmo4DpgJrov4ciKQoKICAgICMgLS0tLSBTdGVwIDg6IFNoZWV0MS9TaGVldDIg55Sf5oiQ77yI6ZyA6KaB5bqT5a2Y5paH5Lu277yJIC0tLS0KICAgIHNoZWV0MV9kYXRhID0gTm9uZQogICAgc2hlZXQyX2RhdGEgPSBOb25lCiAgICBtb250aHMgPSBOb25lCgogICAgaWYgaW52X3BhdGg6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBzdC53cml0ZSgi8J+UlyDor7vlj5bpo57kuabmmKDlsITooaguLi4iKQogICAgICAgICAgICBzcmNfdG9fbWFwLCB6aHVfdG9fc2V0cywgemh1X3RvX3hpYW5nc2ksIHpodV90b19vcmRlciA9IFwKICAgICAgICAgICAgICAgIHJlYWRfZmVpc2h1X21hcHBpbmdfc2FmZShmZWlzaHVfdXJsKQoKICAgICAgICAgICAgaWYgbm90IHNyY190b19tYXA6CiAgICAgICAgICAgICAgICBzdC5pbmZvKCLpo57kuabmmKDlsITkuLrnqbrvvIzot7Pov4cgU2hlZXQxL+aVtOWll+abv+S7o+eUn+aIkOOAgiIKICAgICAgICAgICAgICAgICAgICAgICAgIuS7hei+k+WHuiBTaGVldDIo5pyq5ouG6KejKSArIFNoZWV0MyjlvILluLjmj5DphpIp44CCIikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHN0LndyaXRlKGYiICDmupBTS1XmmKDlsIQ6IHtsZW4oc3JjX3RvX21hcCl9IHwg5pW05aWX5pu/5LujOiB7bGVuKHpodV90b19zZXRzKX0iKQoKICAgICAgICAgICAgICAgIHN0LndyaXRlKCLwn5OQIOivu+WPluW9kuS4gOWMluaYoOWwhC4uLiIpCiAgICAgICAgICAgICAgICBpZiBIQVNfUFlXSU4zMjoKICAgICAgICAgICAgICAgICAgICBzaG9wX3RvX21haW4sIHBlcnNvbl90b19ub3JtID0gZGMucmVhZF9ub3JtYWxpemF0aW9uKGludl9wYXRoKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBzaG9wX3RvX21haW4sIHBlcnNvbl90b19ub3JtID0gcmVhZF9ub3JtYWxpemF0aW9uX2ZhbGxiYWNrKGludl9wYXRoKQogICAgICAgICAgICAgICAgc3Qud3JpdGUoZiIgIOW6l+mTuuKGkuS4u+W6l+mTujoge2xlbihzaG9wX3RvX21haW4pfSB8IOi/kOiQpeKGkuW9kuS4gDoge2xlbihwZXJzb25fdG9fbm9ybSl9IikKCiAgICAgICAgICAgICAgICBzdC53cml0ZSgi8J+UhCDovazmjaLmmI7nu4bkuLpyZWNvcmRzLi4uIikKICAgICAgICAgICAgICAgIHJlY29yZHMsIG1vbnRocyA9IGRjLmRldGFpbF90b19yZWNvcmRzKGRldGFpbCwgbW9udGhfcm93LCBmc3RhcnQpCiAgICAgICAgICAgICAgICBzdC53cml0ZShmIiAgcmVjb3Jkczoge2xlbihyZWNvcmRzKX0gfCBtb250aHM6IHtsZW4obW9udGhzKX0iKQoKICAgICAgICAgICAgICAgIHN0LndyaXRlKCLwn5OKIOivu+WPluW6k+WtmOaWh+S7tig15Liqc2hlZXQpLi4uIikKICAgICAgICAgICAgICAgIGlmIEhBU19QWVdJTjMyOgogICAgICAgICAgICAgICAgICAgIGludl9tYXAgPSBkYy5yZWFkX2ludmVudG9yeShpbnZfcGF0aCkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgaW52X21hcCA9IHJlYWRfaW52ZW50b3J5X2ZhbGxiYWNrKGludl9wYXRoKQogICAgICAgICAgICAgICAgc3Qud3JpdGUoZiIgIOW6k+WtmGtleToge2xlbihpbnZfbWFwKX0iKQoKICAgICAgICAgICAgICAgIHN0LndyaXRlKCLwn5OmIOeUn+aIkOaNhue7keaLhuWIhi4uLiIpCiAgICAgICAgICAgICAgICBzaGVldDJfZGF0YSA9IGRjLmJ1aWxkX3NoZWV0Ml9idW5kbGUoCiAgICAgICAgICAgICAgICAgICAgcmVjb3JkcywgbW9udGhzLCBzcmNfdG9fbWFwLCB6aHVfdG9fc2V0cywKICAgICAgICAgICAgICAgICAgICB6aHVfdG9feGlhbmdzaSwgemh1X3RvX29yZGVyLCBpbnZfbWFwLAogICAgICAgICAgICAgICAgICAgIHNob3BfdG9fbWFpbiwgcGVyc29uX3RvX25vcm0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHpoZW5ndGFvID0gc3VtKDEgZm9yIHIgaW4gc2hlZXQyX2RhdGEgaWYgclsiaXNfemhlbmd0YW8iXSkKICAgICAgICAgICAgICAgIHJlc3VsdHNfb2sgPSBzdW0oMSBmb3IgciBpbiBzaGVldDJfZGF0YSBpZiByWyLnu5PmnpwiXSA9PSAiWSIpCiAgICAgICAgICAgICAgICBtYXRjaGVkID0gc3VtKDEgZm9yIHIgaW4gc2hlZXQyX2RhdGEgaWYgYW55KHJbInNldF90b3RhbF9pbnYiXSkpCiAgICAgICAgICAgICAgICBzdC53cml0ZShmIiAgU2hlZXQy6KGM5pWwOiB7bGVuKHNoZWV0Ml9kYXRhKX0gfCDmlbTlpZfmm7/ku6M6IHt6aGVuZ3Rhb30gfCAiCiAgICAgICAgICAgICAgICAgICAgICAgICBmIue7k+aenFk6IHtyZXN1bHRzX29rfSBOOiB7bGVuKHNoZWV0Ml9kYXRhKS1yZXN1bHRzX29rfSB8IOacieW6k+WtmDoge21hdGNoZWR9IikKCiAgICAgICAgICAgICAgICBzdW1tYXJ5WyJTaGVldDLooYzmlbAiXSA9IGxlbihzaGVldDJfZGF0YSkKICAgICAgICAgICAgICAgIHN1bW1hcnlbIuaVtOWll+abv+S7oyJdID0gemhlbmd0YW8KICAgICAgICAgICAgICAgIHN1bW1hcnlbIue7k+aenFkiXSA9IHJlc3VsdHNfb2sKICAgICAgICAgICAgICAgIHN1bW1hcnlbIuacieW6k+WtmCJdID0gbWF0Y2hlZAoKICAgICAgICAgICAgICAgIHN0LndyaXRlKCLwn5OLIOeUn+aIkOmUgOWUrumcgOaxguaxh+aAu++8iOWQq+aMieaciOS7juiAgeWIsOaWsOWIhumFje+8iS4uLiIpCiAgICAgICAgICAgICAgICBzaGVldDFfZGF0YSA9IGRjLmJ1aWxkX3NoZWV0MSgKICAgICAgICAgICAgICAgICAgICByZWNvcmRzLCBtb250aHMsIHNyY190b19tYXAsIHpodV90b19zZXRzLAogICAgICAgICAgICAgICAgICAgIHpodV90b19vcmRlciwgc2hvcF90b19tYWluLCBwZXJzb25fdG9fbm9ybSwKICAgICAgICAgICAgICAgICAgICBzaGVldDJfZGF0YQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgc3Qud3JpdGUoZiIgIFNoZWV0MeihjOaVsDogKip7bGVuKHNoZWV0MV9kYXRhKX0qKiIpCgogICAgICAgICAgICAgICAgc3VtbWFyeVsiU2hlZXQx6KGM5pWwIl0gPSBsZW4oc2hlZXQxX2RhdGEpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBzdC5lcnJvcihmIlNoZWV0MS9TaGVldDIg55Sf5oiQ5aSx6LSlOiB7ZX0iKQogICAgICAgICAgICB0cmFjZWJhY2sucHJpbnRfZXhjKCkKICAgICAgICAgICAgc2hlZXQxX2RhdGEgPSBOb25lCiAgICAgICAgICAgIHNoZWV0Ml9kYXRhID0gTm9uZQogICAgICAgICAgICBtb250aHMgPSBOb25lCgogICAgIyAtLS0tIFN0ZXAgOTog6L6T5Ye65paH5Lu2IC0tLS0KICAgIHN0LndyaXRlKCLwn5K+IOeUn+aIkOi+k+WHuuaWh+S7ti4uLiIpCiAgICBoYXNfc2hlZXQxID0gc2hlZXQxX2RhdGEgaXMgbm90IE5vbmUgYW5kIG1vbnRocwogICAgaWYgaGFzX3NoZWV0MToKICAgICAgICBvdXRfbmFtZSA9ICLplIDllK7pnIDmsYLmsYfmgLtf5pW05aWX5YiG6YWNXyVzLnhsc3giICUgZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZJW0lZCIpCiAgICBlbHNlOgogICAgICAgIG91dF9uYW1lID0gIumUgOWUrumihOa1i+aLhuino+axh+aAu1/mmI7nu4ZfJXMueGxzeCIgJSBkYXRldGltZS5ub3coKS5zdHJmdGltZSgiJVklbSVkIikKICAgIG91dF9wYXRoID0gb3MucGF0aC5qb2luKHRlbXBmaWxlLmdldHRlbXBkaXIoKSwgb3V0X25hbWUpCgogICAgc2hlZXRuYW1lcyA9IGRjLndyaXRlX291dHB1dCgKICAgICAgICBvdXRfcGF0aCwgZGV0YWlsLCBvcF9oZHIsIG1vbnRoX3JvdywgZnN0YXJ0LAogICAgICAgIG1pc3NpbmdfYnVuZGxlLCBtaXNzaW5nX3Byb2QsIGZvcm11bGFfYmFkLAogICAgICAgIHNoZWV0MV9kYXRhPXNoZWV0MV9kYXRhLCBtb250aHM9bW9udGhzLAogICAgICAgIHNoZWV0Ml9kYXRhPU5vbmUsCiAgICApCiAgICBzdC53cml0ZShmIiAg6L6T5Ye65paH5Lu2OiBge291dF9uYW1lfWAiKQogICAgc3Qud3JpdGUoZiIgIOW3peS9nOihqDogeycsICcuam9pbihzaGVldG5hbWVzKX0iKQoKICAgIHN1bW1hcnlbIuW3peS9nOihqCJdID0gc2hlZXRuYW1lcwogICAgc3VtbWFyeVsi5rGH5oC75YWs5byP6Ieq5qOAIl0gPSAi5YWo6YOo6YCa6L+HIiBpZiBub3QgZm9ybXVsYV9iYWQgZWxzZSBmIntsZW4oZm9ybXVsYV9iYWQpfeihjOS4jeespiIKCiAgICByZXR1cm4gb3V0X3BhdGgsIHN1bW1hcnkKCgojID09PT09PT09PT09PT09PT09PT09IOS4u+eVjOmdoiA9PT09PT09PT09PT09PT09PT09PQoKZGVmIG1haW4oKToKICAgIGlmIF9EQ19JTVBPUlRfRVJST1I6CiAgICAgICAgc3QuZXJyb3IoZiLml6Dms5Xlr7zlhaUgZGVjb21wb3NlIOaooeWdlzoge19EQ19JTVBPUlRfRVJST1J9IikKICAgICAgICBzdC5zdG9wKCkKCiAgICBzdC50aXRsZSgi6ZSA5ZSu6aKE5rWL5o2G57uRU0tV5ouG6KejIikKICAgIHN0LmNhcHRpb24oIuS4iuS8oOi/kOiQpeihqCArIEJPTSArIOS6p+WTgei1hOaWme+8iCsg5Y+v6YCJ5bqT5a2Y5paH5Lu277yJ77yM5LiA6ZSu5ouG6Kej5o2G57uRU0tV5bm26L6T5Ye65a6M5pW05piO57uGIikKCiAgICAjIOeOr+Wig+aPkOekugogICAgaWYgbm90IEhBU19QWVdJTjMyOgogICAgICAgIHN0LmluZm8oIuKEue+4jyDlvZPliY3ov5DooYznjq/looPml6AgRXhjZWwgQ09N77yI6Z2eIFdpbmRvd3Mg5oiW5pyq5a6J6KOFIHB5d2luMzLvvInjgIIiCiAgICAgICAgICAgICAgICAiRFJNIOWKoOWvhuaWh+S7tuaXoOazleivu+WPlu+8jOivt+S4iuS8oOacquWKoOWvhueahCB4bHN4IOaWh+S7tuOAgiIKICAgICAgICAgICAgICAgICLlpoLpnIDlpITnkIYgRFJNIOaWh+S7tu+8jOivt+WcqCBXaW5kb3dzICsgRXhjZWwg546v5aKD5LiL5pys5Zyw6L+Q6KGM44CCIikKCiAgICAjIC0tLS0g5L6n6L655qCPIC0tLS0KICAgIHdpdGggc3Quc2lkZWJhcjoKICAgICAgICBzdC5oZWFkZXIoIuKame+4jyDlj4LmlbDorr7nva4iKQogICAgICAgIGZlaXNodV91cmwgPSBzdC50ZXh0X2lucHV0KAogICAgICAgICAgICAi6aOe5Lmm5pW05aWX5pu/5Luj5YWz57O76KGoVVJMIiwKICAgICAgICAgICAgdmFsdWU9ZGMuRkVJU0hVX1VSTF9ERUZBVUxULAogICAgICAgICAgICBoZWxwPSLnlKjkuo7or7vlj5bmlbTlpZfmm7/ku6PlhbPns7vlkozmt7fnlKhTS1XmmKDlsITjgILpnIDopoEgbGFyay1jbGkg5bey5o6I5p2D44CCIgogICAgICAgICkKCiAgICAgICAgb3Bfc2hlZXRfbmFtZSA9IHN0LnRleHRfaW5wdXQoCiAgICAgICAgICAgICLov5DokKXooaggU2hlZXTlkI3vvIjnlZnnqbroh6rliqjor4bliKvvvIkiLAogICAgICAgICAgICB2YWx1ZT0iIiwKICAgICAgICAgICAgaGVscD0i6Ieq5Yqo6K+G5Yir5ZCr44CM6L+Q6JCl44CN55qEc2hlZXQiCiAgICAgICAgKQoKICAgICAgICBjc3ZfZW5jID0gc3Quc2VsZWN0Ym94KAogICAgICAgICAgICAiQ1NW57yW56CBIiwKICAgICAgICAgICAgb3B0aW9ucz1bIuiHquWKqOaOoua1iyIsICJnYmsiLCAidXRmLTgtc2lnIiwgInV0Zi04IiwgImxhdGluLTEiXSwKICAgICAgICAgICAgaGVscD0i6buY6K6k6Ieq5Yqo5o6i5rWL77yM5aaC6YGH5Lmx56CB5Y+v5omL5Yqo5oyH5a6aIgogICAgICAgICkKCiAgICAgICAgc3QuZGl2aWRlcigpCiAgICAgICAgc3QubWFya2Rvd24oIiMjIyDwn5OWIOS9v+eUqOivtOaYjiIpCiAgICAgICAgc3QubWFya2Rvd24oCiAgICAgICAgICAgICIxLiDkuIrkvKAqKui/kOiQpeihqCoqIHhsc3jvvIjmlK/mjIFEUk3liqDlr4bvvIlcbiIKICAgICAgICAgICAgIjIuIOS4iuS8oCoq5ZCM5qy+5aWX6KOF5bqT5a2YKiogQ1NWICsgKirkuqflk4HotYTmlpkqKiBDU1bvvIjmiJDlr7nlv4XloavvvIlcbiIKICAgICAgICAgICAgIjMuIOWPr+mAie+8muS4iuS8oCoq5bqT5a2Y5paH5Lu2KiogeGxzeCDihpIg6aKd5aSW55Sf5oiQU2hlZXQx44CM6ZSA5ZSu6ZyA5rGC5rGH5oC744CNXG4iCiAgICAgICAgICAgICI0LiDngrnlh7vjgIzlvIDlp4vmi4bop6PjgI1cbiIKICAgICAgICAgICAgIjUuIOWujOaIkOWQjueCueWHu+OAjOS4i+i9vee7k+aenOaWh+S7tuOAjSIKICAgICAgICApCiAgICAgICAgc3QuZGl2aWRlcigpCiAgICAgICAgZW52X2xhYmVsID0gIldpbmRvd3MgKyBFeGNlbCBDT00iIGlmIEhBU19QWVdJTjMyIGVsc2UgIkxpbnV4L0Nsb3VkIChvcGVucHl4bCkiCiAgICAgICAgc3QuY2FwdGlvbihmIvCflqXvuI8g6L+Q6KGM546v5aKDOiB7ZW52X2xhYmVsfSIpCiAgICAgICAgc3QuY2FwdGlvbigi8J+TpiDoh6rljIXlkKsgZGVjb21wb3NlLnB5IOaooeWdlyIpCgogICAgIyAtLS0tIOaWh+S7tuS4iuS8oOWMuiAtLS0tCiAgICBzdC5tYXJrZG93bigiIyMjIPCfk4Eg5paH5Lu25LiK5LygIikKCiAgICBjb2wxLCBjb2wyID0gc3QuY29sdW1ucygyKQoKICAgIHdpdGggY29sMToKICAgICAgICBzdC5tYXJrZG93bigiKirlv4Xloavmlofku7YqKiIpCiAgICAgICAgb3BfZmlsZSA9IHN0LmZpbGVfdXBsb2FkZXIoCiAgICAgICAgICAgICLov5DokKXooaggeGxzeCIsCiAgICAgICAgICAgIHR5cGU9WyJ4bHN4Il0sCiAgICAgICAgICAgIGtleT0ib3BfZmlsZSIsCiAgICAgICAgICAgIGhlbHA9Iui/kOiQpS3plIDllK7pooTmtYvmsYfmgLvooajvvIhEUk3liqDlr4bpnIDlnKhXaW5kb3dz5pys5Zyw6L+Q6KGM77yJIgogICAgICAgICkKICAgICAgICBib21fY3N2ID0gc3QuZmlsZV91cGxvYWRlcigKICAgICAgICAgICAgIuWQjOasvuWll+ijheW6k+WtmCBDU1YiLAogICAgICAgICAgICB0eXBlPVsiY3N2Il0sCiAgICAgICAgICAgIGtleT0iYm9tX2NzdiIsCiAgICAgICAgICAgIGhlbHA9IuWMheWQqyDku5PlupNTS1UgLyDniLbku5PlupNTS1UgLyDlpZfoo4XmlbDph48iCiAgICAgICAgKQoKICAgIHdpdGggY29sMjoKICAgICAgICBzdC5tYXJrZG93bigiKirlv4Xloavmlofku7YqKiIpCiAgICAgICAgcHJvZHVjdF9jc3YgPSBzdC5maWxlX3VwbG9hZGVyKAogICAgICAgICAgICAi5Lqn5ZOB6LWE5paZIENTViIsCiAgICAgICAgICAgIHR5cGU9WyJjc3YiXSwKICAgICAgICAgICAga2V5PSJwcm9kdWN0X2NzdiIsCiAgICAgICAgICAgIGhlbHA9IuWMheWQqyDkuqflk4FTS1UgLyDkuqflk4HlkI3np7AgLyDkuqflk4HmrL7lvI8iCiAgICAgICAgKQogICAgICAgIHN0Lm1hcmtkb3duKCIqKuWPr+mAieaWh+S7tioqIikKICAgICAgICBpbnZfZmlsZSA9IHN0LmZpbGVfdXBsb2FkZXIoCiAgICAgICAgICAgICLlupPlrZjmlofku7YgeGxzeO+8iOeUn+aIkFNoZWV0Me+8iSIsCiAgICAgICAgICAgIHR5cGU9WyJ4bHN4Il0sCiAgICAgICAgICAgIGtleT0iaW52X2ZpbGUiLAogICAgICAgICAgICBoZWxwPSLlkKvmtbflpJbku5PlupPlrZgv5Zyo6YCU6YWN5p+cL+WQiOWQjOW+heS6pOS7mOetiTXkuKpzaGVldCIKICAgICAgICApCgogICAgIyAtLS0tIOi/kOihjOaMiemSriAtLS0tCiAgICBzdC5kaXZpZGVyKCkKCiAgICBjYW5fcnVuID0gb3BfZmlsZSBpcyBub3QgTm9uZSBhbmQgYm9tX2NzdiBpcyBub3QgTm9uZSBhbmQgcHJvZHVjdF9jc3YgaXMgbm90IE5vbmUKCiAgICBpZiBub3QgY2FuX3J1bjoKICAgICAgICBzdC5pbmZvKCLwn5GGIOivt+S4iuS8oOi/kOiQpeihqCArIOWQjOasvuWll+ijheW6k+WtmENTViArIOS6p+WTgei1hOaWmUNTViDlkI7lvIDlp4vmi4bop6MiKQoKICAgIGlmIHN0LmJ1dHRvbigi8J+agCDlvIDlp4vmi4bop6MiLCB0eXBlPSJwcmltYXJ5IiwgZGlzYWJsZWQ9bm90IGNhbl9ydW4pOgogICAgICAgICMgLS0tLSDkv53lrZjkuIrkvKDmlofku7bliLDkuLTml7bnm67lvZUgLS0tLQogICAgICAgIHdpdGggdGVtcGZpbGUuVGVtcG9yYXJ5RGlyZWN0b3J5KHByZWZpeD0iZGVjb21wb3NlXyIpIGFzIHRtcGRpcjoKICAgICAgICAgICAgb3BfcGF0aCA9IG9zLnBhdGguam9pbih0bXBkaXIsIG9wX2ZpbGUubmFtZSkKICAgICAgICAgICAgd2l0aCBvcGVuKG9wX3BhdGgsICJ3YiIpIGFzIGY6CiAgICAgICAgICAgICAgICBzaHV0aWwuY29weWZpbGVvYmoob3BfZmlsZSwgZikKCiAgICAgICAgICAgIGJvbV9wYXRoID0gb3MucGF0aC5qb2luKHRtcGRpciwgYm9tX2Nzdi5uYW1lKQogICAgICAgICAgICB3aXRoIG9wZW4oYm9tX3BhdGgsICJ3YiIpIGFzIGY6CiAgICAgICAgICAgICAgICBzaHV0aWwuY29weWZpbGVvYmooYm9tX2NzdiwgZikKCiAgICAgICAgICAgIHByb2RfcGF0aCA9IG9zLnBhdGguam9pbih0bXBkaXIsIHByb2R1Y3RfY3N2Lm5hbWUpCiAgICAgICAgICAgIHdpdGggb3Blbihwcm9kX3BhdGgsICJ3YiIpIGFzIGY6CiAgICAgICAgICAgICAgICBzaHV0aWwuY29weWZpbGVvYmoocHJvZHVjdF9jc3YsIGYpCgogICAgICAgICAgICBpbnZfcGF0aCA9IE5vbmUKICAgICAgICAgICAgaWYgaW52X2ZpbGU6CiAgICAgICAgICAgICAgICBpbnZfcGF0aCA9IG9zLnBhdGguam9pbih0bXBkaXIsIGludl9maWxlLm5hbWUpCiAgICAgICAgICAgICAgICB3aXRoIG9wZW4oaW52X3BhdGgsICJ3YiIpIGFzIGY6CiAgICAgICAgICAgICAgICAgICAgc2h1dGlsLmNvcHlmaWxlb2JqKGludl9maWxlLCBmKQoKICAgICAgICAgICAgIyAtLS0tIOaJp+ihjOaLhuinoyAtLS0tCiAgICAgICAgICAgIGVuY192YWwgPSBOb25lIGlmIGNzdl9lbmMgPT0gIuiHquWKqOaOoua1iyIgZWxzZSBjc3ZfZW5jCiAgICAgICAgICAgIHNoZWV0X3ZhbCA9IG9wX3NoZWV0X25hbWUuc3RyaXAoKSBvciBOb25lCgogICAgICAgICAgICB3aXRoIHN0LnN0YXR1cygi5ouG6Kej6L+b6KGM5LitLi4uIiwgZXhwYW5kZWQ9VHJ1ZSkgYXMgc3RhdHVzOgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHJlc3VsdF9wYXRoLCBzdW1tYXJ5ID0gcnVuX2RlY29tcG9zZSgKICAgICAgICAgICAgICAgICAgICAgICAgb3BfcGF0aCwgYm9tX3BhdGgsIHByb2RfcGF0aCwKICAgICAgICAgICAgICAgICAgICAgICAgaW52X3BhdGggaWYgaW52X3BhdGggZWxzZSBOb25lLAogICAgICAgICAgICAgICAgICAgICAgICBmZWlzaHVfdXJsLAogICAgICAgICAgICAgICAgICAgICAgICBvcF9zaGVldD1zaGVldF92YWwsCiAgICAgICAgICAgICAgICAgICAgICAgIGVuYz1lbmNfdmFsLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBzdGF0dXMudXBkYXRlKGxhYmVsPSLinIUg5ouG6Kej5a6M5oiQ77yBIiwgc3RhdGU9ImNvbXBsZXRlIikKICAgICAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgICAgICBzdGF0dXMudXBkYXRlKGxhYmVsPWYi4p2MIOaLhuino+Wksei0pToge2V9Iiwgc3RhdGU9ImVycm9yIikKICAgICAgICAgICAgICAgICAgICBzdC5lcnJvcihmIuaLhuino+i/h+eoi+S4reWHuumUmToge2V9IikKICAgICAgICAgICAgICAgICAgICBzdC5jb2RlKHRyYWNlYmFjay5mb3JtYXRfZXhjKCksIGxhbmd1YWdlPSJweXRob24iKQogICAgICAgICAgICAgICAgICAgIHJldHVybgoKICAgICAgICAgICAgIyAtLS0tIOe7k+aenOWxleekuiAtLS0tCiAgICAgICAgICAgIHN0LmRpdmlkZXIoKQogICAgICAgICAgICBzdC5tYXJrZG93bigiIyMjIPCfk4og6L+Q6KGM5pGY6KaBIikKCiAgICAgICAgICAgIGNvbHMgPSBzdC5jb2x1bW5zKG1pbihsZW4oc3VtbWFyeSksIDYpKQogICAgICAgICAgICBtZXRyaWNfbWFwID0gewogICAgICAgICAgICAgICAgIuaYjue7huaAu+ihjOaVsCI6ICLmgLvooYzmlbAiLAogICAgICAgICAgICAgICAgIuaNhue7keaLhuinoyI6ICLmjYbnu5Hmi4bop6MiLAogICAgICAgICAgICAgICAgIuWOn+WNleWTgSI6ICLljp/ljZXlk4EiLAogICAgICAgICAgICAgICAgIlNoZWV0MeihjOaVsCI6ICJTaGVldDHooYzmlbAiLAogICAgICAgICAgICAgICAgIlNoZWV0MuihjOaVsCI6ICJTaGVldDLooYzmlbAiLAogICAgICAgICAgICAgICAgIuacieW6k+WtmCI6ICLmnInlupPlrZjooYwiLAogICAgICAgICAgICAgICAgIue7k+aenFkiOiAi57uT5p6cWSIsCiAgICAgICAgICAgICAgICAi5pW05aWX5pu/5LujIjogIuaVtOWll+abv+S7oyIsCiAgICAgICAgICAgICAgICAi57y65aSx5o2G57uR5YWz57O7IjogIue8uuWkseWFs+ezuyIsCiAgICAgICAgICAgICAgICAi5pyq5Yy56YWN5Lqn5ZOB6LWE5paZIjogIuacquWMuemFjei1hOaWmSIsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZm9yIGksIChrLCB2KSBpbiBlbnVtZXJhdGUoc3VtbWFyeS5pdGVtcygpKToKICAgICAgICAgICAgICAgIGlmIGsgaW4gKCLlt6XkvZzooagiLCAi5rGH5oC75YWs5byP6Ieq5qOAIik6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIGlmIGkgPj0gbGVuKGNvbHMpOgogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICBsYWJlbCA9IG1ldHJpY19tYXAuZ2V0KGssIGspCiAgICAgICAgICAgICAgICBjb2xzW2ldLm1ldHJpYyhsYWJlbCwgdikKCiAgICAgICAgICAgIGlmICLlt6XkvZzooagiIGluIHN1bW1hcnk6CiAgICAgICAgICAgICAgICBzdC53cml0ZShmIioq5bel5L2c6KGoKio6IHsnLCAnLmpvaW4oc3VtbWFyeVsn5bel5L2c6KGoJ10pfSIpCiAgICAgICAgICAgIGlmICLmsYfmgLvlhazlvI/oh6rmo4AiIGluIHN1bW1hcnk6CiAgICAgICAgICAgICAgICBzdC53cml0ZShmIioq5rGH5oC75YWs5byP6Ieq5qOAKio6IHtzdW1tYXJ5WyfmsYfmgLvlhazlvI/oh6rmo4AnXX0iKQoKICAgICAgICAgICAgIyAtLS0tIOS4i+i9veaMiemSriAtLS0tCiAgICAgICAgICAgIHN0LmRpdmlkZXIoKQogICAgICAgICAgICBzdC5tYXJrZG93bigiIyMjIPCfk6Ug5LiL6L2957uT5p6cIikKCiAgICAgICAgICAgIHdpdGggb3BlbihyZXN1bHRfcGF0aCwgInJiIikgYXMgZjoKICAgICAgICAgICAgICAgIGZpbGVfZGF0YSA9IGYucmVhZCgpCgogICAgICAgICAgICBvdXRfZmlsZW5hbWUgPSBvcy5wYXRoLmJhc2VuYW1lKHJlc3VsdF9wYXRoKQogICAgICAgICAgICBzdC5kb3dubG9hZF9idXR0b24oCiAgICAgICAgICAgICAgICBsYWJlbD0i8J+TpSDkuIvovb3nu5Pmnpzmlofku7YiLAogICAgICAgICAgICAgICAgZGF0YT1maWxlX2RhdGEsCiAgICAgICAgICAgICAgICBmaWxlX25hbWU9b3V0X2ZpbGVuYW1lLAogICAgICAgICAgICAgICAgbWltZT0iYXBwbGljYXRpb24vdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnNwcmVhZHNoZWV0bWwuc2hlZXQiLAogICAgICAgICAgICAgICAgdXNlX2NvbnRhaW5lcl93aWR0aD1UcnVlLAogICAgICAgICAgICApCgogICAgICAgICAgICBzdC5zdWNjZXNzKGYi5paH5Lu25bey55Sf5oiQOiBge291dF9maWxlbmFtZX1gICh7bGVuKGZpbGVfZGF0YSk6LH0gYnl0ZXMpIikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+# -*- coding: utf-8 -*-
+"""
+销售预测 捆绑SKU拆解 Streamlit 小程序
+=====================================
+自包含：decompose.py 与 app.py 在同一目录。
+- Windows 本地运行：支持 DRM 加密文件（通过 Excel COM）
+- Streamlit Cloud (Linux) 运行：自动降级为 openpyxl 读取（仅非加密文件）
+
+运行: streamlit run app.py
+"""
+import sys
+import os
+import io
+import math
+import tempfile
+import shutil
+import traceback
+from datetime import datetime
+from collections import defaultdict
+
+# ---- 页面配置（必须是第一个 Streamlit 命令）----
+import streamlit as st
+
+st.set_page_config(
+    page_title="销售预测捆绑SKU拆解",
+    page_icon="📦",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+import openpyxl
+
+# ---- 导入 decompose 模块（同目录）----
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
+
+_DC_IMPORT_ERROR = None
+try:
+    import decompose as dc
+except ImportError as e:
+    _DC_IMPORT_ERROR = str(e)
+    dc = None
+
+# ---- 检测运行环境 ----
+IS_WINDOWS = sys.platform == "win32"
+HAS_PYWIN32 = False
+if IS_WINDOWS:
+    try:
+        import win32com.client
+        HAS_PYWIN32 = True
+    except ImportError:
+        pass
+
+
+# ==================== 样式 ====================
+
+
+# ==================== openpyxl 降级读取 ====================
+
+def _read_sheet_openpyxl(wb_path, sheet_name, start_row=1):
+    """用 openpyxl 读取 sheet（非 DRM 文件降级方案）。"""
+    wb = openpyxl.load_workbook(wb_path, data_only=True, read_only=True)
+    ws = wb[sheet_name]
+    rows = list(ws.iter_rows(min_row=start_row, values_only=True))
+    wb.close()
+    result = []
+    for r in rows:
+        if isinstance(r, tuple):
+            result.append(list(r))
+        else:
+            result.append([r])
+    return result
+
+
+def _detect_sheet_name(wb_path, keyword):
+    """自动检测含关键字的 sheet 名。"""
+    wb = openpyxl.load_workbook(wb_path, read_only=True)
+    for name in wb.sheetnames:
+        if keyword in name:
+            wb.close()
+            return name
+    wb.close()
+    return wb.sheetnames[0] if wb.sheetnames else None
+
+
+def read_workbook_fallback(op_path, op_sheet=None, read_bom=True):
+    """openpyxl 降级版 read_workbook（无 COM 环境）。"""
+    op_name = op_sheet or _detect_sheet_name(op_path, "运营")
+    bom_name = None
+
+    wb = openpyxl.load_workbook(op_path, data_only=True, read_only=True)
+    names = wb.sheetnames
+    if read_bom:
+        bom_name = next((n for n in names if "捆绑" in n), None)
+    wb.close()
+
+    op_rows = _read_sheet_openpyxl(op_path, op_name)
+
+    def _norm(v):
+        if v is None:
+            return ""
+        if hasattr(v, 'year'):
+            return "%d年%d月" % (v.year, v.month)
+        return v
+
+    op_rows = [[_norm(v) for v in (r + [""] * (max(len(rr) for rr in op_rows) - len(r)))]
+               if isinstance(r, list) else [_norm(r)] for r in op_rows]
+
+    bom_rows = []
+    if bom_name:
+        bom_rows = _read_sheet_openpyxl(op_path, bom_name)
+        bom_rows = [[_norm(v) for v in (r + [""] * (max(len(rr) for rr in bom_rows) - len(r)))]
+                    if isinstance(r, list) else [_norm(r)] for r in bom_rows]
+
+    return names, op_name, bom_name, op_rows, bom_rows
+
+
+def read_normalization_fallback(inv_path):
+    """openpyxl 降级版 read_normalization。"""
+    shop_to_main = {}
+    person_to_norm = {}
+
+    ws_name = _detect_sheet_name(inv_path, "海外仓库存")
+    if not ws_name:
+        return shop_to_main, person_to_norm
+
+    data = _read_sheet_openpyxl(inv_path, ws_name, start_row=2)
+    for row in data:
+        if not row or not row[0]:
+            continue
+        main_shop = dc.safe_str(row[2]) if len(row) > 2 else ""
+        norm_person = dc.safe_str(row[4]) if len(row) > 4 else ""
+        shop = dc.safe_str(row[5]) if len(row) > 5 else ""
+        person = dc.safe_str(row[6]) if len(row) > 6 else ""
+        if shop and main_shop:
+            shop_to_main[shop] = main_shop
+        if person and norm_person:
+            person_to_norm[person] = norm_person
+
+    return shop_to_main, person_to_norm
+
+
+def read_inventory_fallback(inv_path):
+    """openpyxl 降级版 read_inventory。"""
+    inv_map = defaultdict(lambda: dict(zip(dc.INV_COMPONENTS, [0]*7)))
+
+    sheet_map = {
+        "海外仓库存": ("海外在仓", 7),
+        "在途&配柜": ("海外在途", 12),
+        "合同待交付": ("待交付合同", None),
+        "采购单待下单": ("国内待下合同", 14),
+    }
+
+    for sheet_name, (comp, qty_col) in sheet_map.items():
+        try:
+            data = _read_sheet_openpyxl(inv_path, sheet_name, start_row=2)
+        except Exception:
+            continue
+        for row in data:
+            if not row or not row[0]:
+                continue
+            key = dc.safe_str(row[0])
+            if sheet_name == "合同待交付":
+                qty = (dc.to_num(row[19]) if len(row) > 19 else 0) + \
+                      (dc.to_num(row[25]) if len(row) > 25 else 0)
+            else:
+                qty = dc.to_num(row[qty_col]) if len(row) > qty_col else 0
+            inv_map[key][comp] += qty
+
+    # 海外仓调拨
+    try:
+        data = _read_sheet_openpyxl(inv_path, "海外仓调拨", start_row=3)
+        for row in data:
+            if not row:
+                continue
+            key_in = dc.safe_str(row[0]) if len(row) > 0 else ""
+            out_sku = dc.safe_str(row[2]) if len(row) > 2 else ""
+            out_shop = dc.safe_str(row[6]) if len(row) > 6 else ""
+            out_person = dc.safe_str(row[8]) if len(row) > 8 else ""
+            out_mode = dc.safe_str(row[9]) if len(row) > 9 else ""
+            qty = dc.to_num(row[14]) if len(row) > 14 else 0
+            if key_in:
+                inv_map[key_in]["借入"] += qty
+            if out_sku and out_shop and out_mode and out_person:
+                key_out = "%s&%s&%s&%s" % (out_sku, out_shop, out_mode, out_person)
+                inv_map[key_out]["借出"] += qty
+    except Exception:
+        pass
+
+    return dict(inv_map)
+
+
+# ==================== 飞书映射降级 ====================
+
+def read_feishu_mapping_safe(feishu_url):
+    """尝试读取飞书映射，失败时返回空映射。"""
+    try:
+        return dc.read_feishu_mapping(feishu_url)
+    except FileNotFoundError:
+        st.warning("⚠️ lark-cli 未安装或未授权，跳过飞书映射。Sheet1/整套替代功能不可用。")
+        return {}, {}, {}, {}
+    except Exception as e:
+        st.warning(f"⚠️ 飞书映射读取失败: {e}。Sheet1/整套替代功能不可用。")
+        return {}, {}, {}, {}
+
+
+# ==================== 核心拆解流程 ====================
+
+def run_decompose(op_path, bom_csv_path, product_csv_path, inv_path, feishu_url,
+                  op_sheet=None, enc=None):
+    """执行拆解流水线，返回 (output_path, summary_dict)。"""
+    summary = {}
+
+    # ---- Step 1: 读取运营表 ----
+    st.write("📊 读取运营表...")
+
+    def _try_read_workbook():
+        if HAS_PYWIN32:
+            return dc.read_workbook(op_path, op_sheet=op_sheet, read_bom=True)
+        else:
+            return read_workbook_fallback(op_path, op_sheet=op_sheet, read_bom=True)
+
+    try:
+        names, op_name, bom_name, op, bom = _try_read_workbook()
+    except Exception as e:
+        if not HAS_PYWIN32:
+            st.error(
+                f"读取运营表失败: {e}\n\n"
+                "可能原因：文件被 DRM 加密，当前环境（Linux/Cloud）无法读取。\n"
+                "解决方案：在 Windows + Excel 环境下本地运行 `streamlit run app.py`。"
+            )
+            raise
+        raise
+
+    st.write(f"  运营表: `{op_name}`")
+
+    # ---- Step 2: 定位表头 / 月份行 / 数据行 ----
+    st.write("📋 定位表头和数据...")
+    hidx = dc.find_header_row(op, "SKU", col=0)
+    if hidx == 0 and not str(dc.cell(op[0], 0)).strip() == "SKU":
+        st.warning("未在运营表定位到表头行，已回退到第 1 行")
+    op_hdr = op[hidx]
+    month_row = op[hidx + 1] if hidx + 1 < len(op) else []
+    data = [r for r in op[hidx + 2:] if r and str(dc.cell(r, 0)).strip()]
+    st.write(f"  数据行数: {len(data)}")
+
+    # ---- Step 3: 列索引 ----
+    fstart = dc.col_index(op_hdr, "销量预测")
+    if fstart is None:
+        fstart = dc.DEFAULT_FSTART
+    ss_col = fstart - 1
+    fc = list(range(fstart, fstart + 12))
+    cc = {
+        "fstart": fstart, "ss_col": ss_col, "tot_col": fstart - 2, "fc": fc,
+        "sku_c": dc.col_index(op_hdr, "SKU", exclude="产品") or 0,
+        "shop_c": dc.col_index(op_hdr, "店铺"),
+        "opg_c": dc.col_index(op_hdr, "运营"),
+        "ship_c": dc.col_index(op_hdr, "发货模式"),
+        "cat_c": dc.col_index(op_hdr, "一级分类"),
+        "grade_c": dc.col_index(op_hdr, "产品定级"),
+        "chan_c": dc.col_index(op_hdr, "渠道"),
+        "coun_c": dc.col_index(op_hdr, "国家"),
+        "stat_c": dc.col_index(op_hdr, "销售状态"),
+        "list_c": dc.col_index(op_hdr, "listing") or dc.col_index(op_hdr, "负责人"),
+        "msku_c": dc.col_index(op_hdr, "MSKU"),
+        "pname_c": dc.col_index(op_hdr, "品名描述"),
+        "spu_c": dc.col_index(op_hdr, "型号SPU"),
+    }
+
+    # ---- Step 4: 属性查找表 ----
+    op_attr = {}
+    for row in data:
+        sku = str(dc.cell(row, cc["sku_c"])).strip()
+        shop = str(dc.cell(row, cc["shop_c"])).strip()
+        opg = str(dc.cell(row, cc["opg_c"])).strip()
+        ship = str(dc.cell(row, cc["ship_c"])).strip()
+        vals = (
+            str(dc.cell(row, cc["cat_c"])).strip(),
+            str(dc.cell(row, cc["grade_c"])).strip(),
+            str(dc.cell(row, cc["chan_c"])).strip(),
+            str(dc.cell(row, cc["coun_c"])).strip(),
+            str(dc.cell(row, cc["stat_c"])).strip(),
+        )
+        key = (sku.upper(), shop, opg, ship)
+        if key not in op_attr:
+            op_attr[key] = vals
+
+    # ---- Step 5: 构建 BOM / 产品资料 ----
+    st.write("🔧 构建BOM和产品资料...")
+    if bom_csv_path and product_csv_path:
+        prod_master, bom_map = dc.build_bom_product(bom_csv_path, product_csv_path, enc)
+        st.write(f"  产品资料: {len(prod_master)} 条 | BOM映射: {len(bom_map)} 条")
+    else:
+        prod_master, bom_map = {}, defaultdict(list)
+        st.warning("未提供 BOM CSV 和产品资料 CSV")
+
+    # ---- Step 6: 构建明细 ----
+    st.write("📦 构建拆解明细...")
+    (detail, missing_bundle, missing_prod,
+     n_bundle, n_single, n_missbundle, rounded_cells) = \
+        dc.process_rows(data, bom_map, prod_master, op_attr, cc)
+    st.write(f"  明细总行数: **{len(detail)}** (捆绑拆解: {n_bundle}, 原单品: {n_single})")
+
+    if missing_bundle:
+        st.write(f"  ⚠️ 缺失捆绑关系: {len(missing_bundle)} 个 → {', '.join(m[0] for m in missing_bundle)}")
+    if missing_prod:
+        st.write(f"  ⚠️ 未匹配产品资料: {len(missing_prod)} 个")
+
+    summary["明细总行数"] = len(detail)
+    summary["捆绑拆解"] = n_bundle
+    summary["原单品"] = n_single
+    summary["缺失捆绑关系"] = n_missbundle
+    summary["未匹配产品资料"] = len(missing_prod)
+
+    # ---- Step 7: 自检 ----
+    formula_bad = dc.check_formulas(detail)
+    if formula_bad:
+        st.warning(f"  汇总公式不符: {len(formula_bad)} 行")
+    else:
+        st.write("  ✅ 汇总公式自检通过")
+
+    # ---- Step 8: Sheet1/Sheet2 生成（需要库存文件） ----
+    sheet1_data = None
+    sheet2_data = None
+    months = None
+
+    if inv_path:
+        try:
+            st.write("🔗 读取飞书映射表...")
+            src_to_map, zhu_to_sets, zhu_to_xiangsi, zhu_to_order = \
+                read_feishu_mapping_safe(feishu_url)
+
+            if not src_to_map:
+                st.info("飞书映射为空，跳过 Sheet1/整套替代生成。"
+                        "仅输出 Sheet2(未拆解) + Sheet3(异常提醒)。")
+            else:
+                st.write(f"  源SKU映射: {len(src_to_map)} | 整套替代: {len(zhu_to_sets)}")
+
+                st.write("📐 读取归一化映射...")
+                if HAS_PYWIN32:
+                    shop_to_main, person_to_norm = dc.read_normalization(inv_path)
+                else:
+                    shop_to_main, person_to_norm = read_normalization_fallback(inv_path)
+                st.write(f"  店铺→主店铺: {len(shop_to_main)} | 运营→归一: {len(person_to_norm)}")
+
+                st.write("🔄 转换明细为records...")
+                records, months = dc.detail_to_records(detail, month_row, fstart)
+                st.write(f"  records: {len(records)} | months: {len(months)}")
+
+                st.write("📊 读取库存文件(5个sheet)...")
+                if HAS_PYWIN32:
+                    inv_map = dc.read_inventory(inv_path)
+                else:
+                    inv_map = read_inventory_fallback(inv_path)
+                st.write(f"  库存key: {len(inv_map)}")
+
+                st.write("📦 生成捆绑拆分...")
+                sheet2_data = dc.build_sheet2_bundle(
+                    records, months, src_to_map, zhu_to_sets,
+                    zhu_to_xiangsi, zhu_to_order, inv_map,
+                    shop_to_main, person_to_norm
+                )
+                zhengtao = sum(1 for r in sheet2_data if r["is_zhengtao"])
+                results_ok = sum(1 for r in sheet2_data if r["结果"] == "Y")
+                matched = sum(1 for r in sheet2_data if any(r["set_total_inv"]))
+                st.write(f"  Sheet2行数: {len(sheet2_data)} | 整套替代: {zhengtao} | "
+                         f"结果Y: {results_ok} N: {len(sheet2_data)-results_ok} | 有库存: {matched}")
+
+                summary["Sheet2行数"] = len(sheet2_data)
+                summary["整套替代"] = zhengtao
+                summary["结果Y"] = results_ok
+                summary["有库存"] = matched
+
+                st.write("📋 生成销售需求汇总（含按月从老到新分配）...")
+                sheet1_data = dc.build_sheet1(
+                    records, months, src_to_map, zhu_to_sets,
+                    zhu_to_order, shop_to_main, person_to_norm,
+                    sheet2_data
+                )
+                st.write(f"  Sheet1行数: **{len(sheet1_data)}**")
+
+                summary["Sheet1行数"] = len(sheet1_data)
+        except Exception as e:
+            st.error(f"Sheet1/Sheet2 生成失败: {e}")
+            traceback.print_exc()
+            sheet1_data = None
+            sheet2_data = None
+            months = None
+
+    # ---- Step 9: 输出文件 ----
+    st.write("💾 生成输出文件...")
+    has_sheet1 = sheet1_data is not None and months
+    if has_sheet1:
+        out_name = "销售需求汇总_整套分配_%s.xlsx" % datetime.now().strftime("%Y%m%d")
+    else:
+        out_name = "销售预测拆解汇总_明细_%s.xlsx" % datetime.now().strftime("%Y%m%d")
+    out_path = os.path.join(tempfile.gettempdir(), out_name)
+
+    sheetnames = dc.write_output(
+        out_path, detail, op_hdr, month_row, fstart,
+        missing_bundle, missing_prod, formula_bad,
+        sheet1_data=sheet1_data, months=months,
+        sheet2_data=None,
+    )
+    st.write(f"  输出文件: `{out_name}`")
+    st.write(f"  工作表: {', '.join(sheetnames)}")
+
+    summary["工作表"] = sheetnames
+    summary["汇总公式自检"] = "全部通过" if not formula_bad else f"{len(formula_bad)}行不符"
+
+    return out_path, summary
+
+
+# ==================== 主界面 ====================
+
+def main():
+    if _DC_IMPORT_ERROR:
+        st.error(f"无法导入 decompose 模块: {_DC_IMPORT_ERROR}")
+        st.stop()
+
+    st.title("销售预测捆绑SKU拆解")
+    st.caption("上传运营表 + BOM + 产品资料（+ 可选库存文件），一键拆解捆绑SKU并输出完整明细")
+
+    # 环境提示
+    if not HAS_PYWIN32:
+        st.info("ℹ️ 当前运行环境无 Excel COM（非 Windows 或未安装 pywin32）。"
+                "DRM 加密文件无法读取，请上传未加密的 xlsx 文件。"
+                "如需处理 DRM 文件，请在 Windows + Excel 环境下本地运行。")
+
+    # ---- 侧边栏 ----
+    with st.sidebar:
+        st.header("⚙️ 参数设置")
+        feishu_url = st.text_input(
+            "飞书整套替代关系表URL",
+            value=dc.FEISHU_URL_DEFAULT,
+            help="用于读取整套替代关系和混用SKU映射。需要 lark-cli 已授权。"
+        )
+
+        op_sheet_name = st.text_input(
+            "运营表 Sheet名（留空自动识别）",
+            value="",
+            help="自动识别含「运营」的sheet"
+        )
+
+        csv_enc = st.selectbox(
+            "CSV编码",
+            options=["自动探测", "gbk", "utf-8-sig", "utf-8", "latin-1"],
+            help="默认自动探测，如遇乱码可手动指定"
+        )
+
+        st.divider()
+        st.markdown("### 📖 使用说明")
+        st.markdown(
+            "1. 上传**运营表** xlsx（支持DRM加密）\n"
+            "2. 上传**同款套装库存** CSV + **产品资料** CSV（成对必填）\n"
+            "3. 可选：上传**库存文件** xlsx → 额外生成Sheet1「销售需求汇总」\n"
+            "4. 点击「开始拆解」\n"
+            "5. 完成后点击「下载结果文件」"
+        )
+        st.divider()
+        env_label = "Windows + Excel COM" if HAS_PYWIN32 else "Linux/Cloud (openpyxl)"
+        st.caption(f"🖥️ 运行环境: {env_label}")
+        st.caption("📦 自包含 decompose.py 模块")
+
+    # ---- 文件上传区 ----
+    st.markdown("### 📁 文件上传")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("**必填文件**")
+        op_file = st.file_uploader(
+            "运营表 xlsx",
+            type=["xlsx"],
+            key="op_file",
+            help="运营-销售预测汇总表（DRM加密需在Windows本地运行）"
+        )
+        bom_csv = st.file_uploader(
+            "同款套装库存 CSV",
+            type=["csv"],
+            key="bom_csv",
+            help="包含 仓库SKU / 父仓库SKU / 套装数量"
+        )
+
+    with col2:
+        st.markdown("**必填文件**")
+        product_csv = st.file_uploader(
+            "产品资料 CSV",
+            type=["csv"],
+            key="product_csv",
+            help="包含 产品SKU / 产品名称 / 产品款式"
+        )
+        st.markdown("**可选文件**")
+        inv_file = st.file_uploader(
+            "库存文件 xlsx（生成Sheet1）",
+            type=["xlsx"],
+            key="inv_file",
+            help="含海外仓库存/在途配柜/合同待交付等5个sheet"
+        )
+
+    # ---- 运行按钮 ----
+    st.divider()
+
+    can_run = op_file is not None and bom_csv is not None and product_csv is not None
+
+    if not can_run:
+        st.info("👆 请上传运营表 + 同款套装库存CSV + 产品资料CSV 后开始拆解")
+
+    if st.button("🚀 开始拆解", type="primary", disabled=not can_run):
+        # ---- 保存上传文件到临时目录 ----
+        with tempfile.TemporaryDirectory(prefix="decompose_") as tmpdir:
+            op_path = os.path.join(tmpdir, op_file.name)
+            with open(op_path, "wb") as f:
+                shutil.copyfileobj(op_file, f)
+
+            bom_path = os.path.join(tmpdir, bom_csv.name)
+            with open(bom_path, "wb") as f:
+                shutil.copyfileobj(bom_csv, f)
+
+            prod_path = os.path.join(tmpdir, product_csv.name)
+            with open(prod_path, "wb") as f:
+                shutil.copyfileobj(product_csv, f)
+
+            inv_path = None
+            if inv_file:
+                inv_path = os.path.join(tmpdir, inv_file.name)
+                with open(inv_path, "wb") as f:
+                    shutil.copyfileobj(inv_file, f)
+
+            # ---- 执行拆解 ----
+            enc_val = None if csv_enc == "自动探测" else csv_enc
+            sheet_val = op_sheet_name.strip() or None
+
+            with st.status("拆解进行中...", expanded=True) as status:
+                try:
+                    result_path, summary = run_decompose(
+                        op_path, bom_path, prod_path,
+                        inv_path if inv_path else None,
+                        feishu_url,
+                        op_sheet=sheet_val,
+                        enc=enc_val,
+                    )
+                    status.update(label="✅ 拆解完成！", state="complete")
+                except Exception as e:
+                    status.update(label=f"❌ 拆解失败: {e}", state="error")
+                    st.error(f"拆解过程中出错: {e}")
+                    st.code(traceback.format_exc(), language="python")
+                    return
+
+            # ---- 结果展示 ----
+            st.divider()
+            st.markdown("### 📊 运行摘要")
+
+            cols = st.columns(min(len(summary), 6))
+            metric_map = {
+                "明细总行数": "总行数",
+                "捆绑拆解": "捆绑拆解",
+                "原单品": "原单品",
+                "Sheet1行数": "Sheet1行数",
+                "Sheet2行数": "Sheet2行数",
+                "有库存": "有库存行",
+                "结果Y": "结果Y",
+                "整套替代": "整套替代",
+                "缺失捆绑关系": "缺失关系",
+                "未匹配产品资料": "未匹配资料",
+            }
+            for i, (k, v) in enumerate(summary.items()):
+                if k in ("工作表", "汇总公式自检"):
+                    continue
+                if i >= len(cols):
+                    break
+                label = metric_map.get(k, k)
+                cols[i].metric(label, v)
+
+            if "工作表" in summary:
+                st.write(f"**工作表**: {', '.join(summary['工作表'])}")
+            if "汇总公式自检" in summary:
+                st.write(f"**汇总公式自检**: {summary['汇总公式自检']}")
+
+            # ---- 下载按钮 ----
+            st.divider()
+            st.markdown("### 📥 下载结果")
+
+            with open(result_path, "rb") as f:
+                file_data = f.read()
+
+            out_filename = os.path.basename(result_path)
+            st.download_button(
+                label="📥 下载结果文件",
+                data=file_data,
+                file_name=out_filename,
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                use_container_width=True,
+            )
+
+            st.success(f"文件已生成: `{out_filename}` ({len(file_data):,} bytes)")
+
+
+if __name__ == "__main__":
+    main()
